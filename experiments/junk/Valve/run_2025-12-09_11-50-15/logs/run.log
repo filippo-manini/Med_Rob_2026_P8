@@ -1,0 +1,54 @@
+2025-12-09 11:50:15 [INFO]: Logging initialized. All messages will go to console and /home/artery/catkin_ws/src/filippo_controller/experiments/to_evaluate/run_2025-12-09_11-50-15/logs/run.log
+2025-12-09 11:50:15 [INFO]: Workspace created at: /home/artery/catkin_ws/src/filippo_controller/experiments/to_evaluate/run_2025-12-09_11-50-15
+2025-12-09 11:50:15 [INFO]: Press 't' to stop and generate plots.
+2025-12-09 11:50:15 [INFO]: Node running. Press Ctrl+C to stop and generate plots.
+2025-12-09 11:50:16 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:50:17 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:50:18 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:50:19 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:50:19 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:50:20 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:50:21 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:50:21 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:50:22 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:50:22 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:50:23 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:50:24 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:50:25 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:50:25 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:50:26 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:50:27 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:50:28 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:50:29 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:50:30 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:50:30 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:50:31 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:50:31 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:50:32 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:50:40 [INFO]: Valid Movement Detected
+2025-12-09 11:50:41 [INFO]: Valid Movement Detected
+2025-12-09 11:50:42 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:50:46 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:50:49 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:50:52 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:50:52 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:50:55 [INFO]: Stop requested; breaking control loop.
+2025-12-09 11:50:55 [INFO]: Generating plots and rewinding robot...
+2025-12-09 11:50:55 [INFO]: /home/artery/catkin_ws/src/filippo_controller/experiments/to_evaluate/run_2025-12-09_11-50-15/results/results.csv
+2025-12-09 11:50:56 [INFO]: Rewinding robot (ML: 183 → AP: 386 → INS: -493)...
+2025-12-09 11:51:22 [INFO]: Robot successfully brought back to start position.
+2025-12-09 11:51:22 [INFO]: signal_shutdown [Stop requested and finalize completed.]
+2025-12-09 11:51:22 [INFO]: topic[/rosout] removing connection to /rosout
+2025-12-09 11:51:22 [INFO]: topic[/tip_pose_topic] removing connection to /rviz_1765277400652702884
+2025-12-09 11:51:22 [INFO]: topic[/base_pose_topic] removing connection to /rviz_1765277400652702884
+2025-12-09 11:51:22 [INFO]: topic[/valve_pose_topic] removing connection to /rviz_1765277400652702884
+2025-12-09 11:51:22 [INFO]: topic[/catheter_shape_marker] removing connection to /rviz_1765277400652702884
+2025-12-09 11:51:22 [INFO]: topic[/displacements_VC] removing connection to /Arduino_node
+2025-12-09 11:51:22 [INFO]: topic[/reset_motors] removing connection to /Arduino_node
+2025-12-09 11:51:22 [INFO]: topic[/trajectory_path] removing connection to /rviz_1765277400652702884
+2025-12-09 11:51:22 [INFO]: topic[/waypoint] removing connection to /rviz_1765277400652702884
+2025-12-09 11:51:22 [INFO]: topic[/trajectory_points] removing connection to /rviz_1765277400652702884
+2025-12-09 11:51:22 [INFO]: topic[/aurora_data] removing connection to http://artery-desktop:43569/
+2025-12-09 11:51:22 [INFO]: topic[/Finish_Actuation] removing connection to http://artery-desktop:46035/
+2025-12-09 11:51:22 [INFO]: Stop requested and finalize completed.
+2025-12-09 11:51:23 [INFO]: signal_shutdown [atexit]

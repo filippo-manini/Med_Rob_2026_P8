@@ -1,0 +1,205 @@
+2026-01-30 13:53:03 [INFO]: Logging initialized. All messages will go to console and /home/artery/catkin_ws/src/filippo_controller/experiments/to_evaluate/run_2026-01-30_13-53-03/logs/run.log
+2026-01-30 13:53:03 [INFO]: Workspace created at: /home/artery/catkin_ws/src/filippo_controller/experiments/to_evaluate/run_2026-01-30_13-53-03
+2026-01-30 13:53:03 [INFO]: Press 't' to stop and generate plots.
+2026-01-30 13:53:03 [INFO]: Node running. Press Ctrl+C to stop and generate plots.
+2026-01-30 13:53:16 [INFO]: Valid movement detected!
+2026-01-30 13:53:17 [INFO]: Valid movement detected!
+2026-01-30 13:53:18 [INFO]: Hysteresis / deadzone detected!
+2026-01-30 13:53:19 [INFO]: Hysteresis / deadzone detected!
+2026-01-30 13:53:20 [INFO]: Hysteresis / deadzone detected!
+2026-01-30 13:53:21 [INFO]: Hysteresis / deadzone detected!
+2026-01-30 13:53:22 [INFO]: Valid movement detected!
+2026-01-30 13:53:23 [INFO]: Hysteresis / deadzone detected!
+2026-01-30 13:53:24 [INFO]: Hysteresis / deadzone detected!
+2026-01-30 13:53:25 [INFO]: Hysteresis / deadzone detected!
+2026-01-30 13:53:26 [INFO]: Hysteresis / deadzone detected!
+2026-01-30 13:53:27 [INFO]: Hysteresis / deadzone detected!
+2026-01-30 13:53:28 [INFO]: Hysteresis / deadzone detected!
+2026-01-30 13:53:29 [INFO]: Valid movement detected!
+2026-01-30 13:53:30 [INFO]: Valid movement detected!
+2026-01-30 13:53:31 [INFO]: Hysteresis / deadzone detected!
+2026-01-30 13:53:33 [INFO]: Valid movement detected!
+2026-01-30 13:53:33 [INFO]: Valid movement detected!
+2026-01-30 13:53:34 [INFO]: Valid movement detected!
+2026-01-30 13:53:34 [INFO]: Valid movement detected!
+2026-01-30 13:53:36 [INFO]: Valid movement detected!
+2026-01-30 13:53:36 [INFO]: Valid movement detected!
+2026-01-30 13:53:37 [INFO]: Valid movement detected!
+2026-01-30 13:53:37 [INFO]: Valid movement detected!
+2026-01-30 13:53:39 [INFO]: Valid movement detected!
+2026-01-30 13:53:39 [INFO]: Valid movement detected!
+2026-01-30 13:53:40 [INFO]: Valid movement detected!
+2026-01-30 13:53:40 [INFO]: Valid movement detected!
+2026-01-30 13:53:43 [INFO]: Valid movement detected!
+2026-01-30 13:53:43 [INFO]: Valid movement detected!
+2026-01-30 13:53:46 [INFO]: Valid movement detected!
+2026-01-30 13:53:46 [INFO]: Valid movement detected!
+2026-01-30 13:53:47 [INFO]: Hysteresis / deadzone detected!
+2026-01-30 13:53:48 [INFO]: Valid movement detected!
+2026-01-30 13:53:50 [INFO]: Valid movement detected!
+2026-01-30 13:53:50 [INFO]: Valid movement detected!
+2026-01-30 13:53:51 [INFO]: Hysteresis / deadzone detected!
+2026-01-30 13:53:53 [INFO]: Hysteresis / deadzone detected!
+2026-01-30 13:53:54 [INFO]: Hysteresis / deadzone detected!
+2026-01-30 13:53:56 [INFO]: Valid movement detected!
+2026-01-30 13:53:56 [INFO]: Valid movement detected!
+2026-01-30 13:53:57 [INFO]: Valid movement detected!
+2026-01-30 13:53:57 [INFO]: Valid movement detected!
+2026-01-30 13:53:59 [INFO]: Valid movement detected!
+2026-01-30 13:53:59 [INFO]: Valid movement detected!
+2026-01-30 13:54:00 [INFO]: Valid movement detected!
+2026-01-30 13:54:00 [INFO]: Valid movement detected!
+2026-01-30 13:54:02 [INFO]: Valid movement detected!
+2026-01-30 13:54:02 [INFO]: Valid movement detected!
+2026-01-30 13:54:03 [INFO]: Valid movement detected!
+2026-01-30 13:54:05 [INFO]: Valid movement detected!
+2026-01-30 13:54:05 [INFO]: Valid movement detected!
+2026-01-30 13:54:06 [INFO]: Valid movement detected!
+2026-01-30 13:54:09 [INFO]: Valid movement detected!
+2026-01-30 13:54:09 [INFO]: Valid movement detected!
+2026-01-30 13:54:10 [INFO]: Valid movement detected!
+2026-01-30 13:54:12 [INFO]: Valid movement detected!
+2026-01-30 13:54:12 [INFO]: Valid movement detected!
+2026-01-30 13:54:14 [INFO]: Hysteresis / deadzone detected!
+2026-01-30 13:54:15 [INFO]: Valid movement detected!
+2026-01-30 13:54:15 [INFO]: Valid movement detected!
+2026-01-30 13:54:17 [INFO]: Valid movement detected!
+2026-01-30 13:54:17 [INFO]: Valid movement detected!
+2026-01-30 13:54:18 [INFO]: Hysteresis / deadzone detected!
+2026-01-30 13:54:20 [INFO]: Valid movement detected!
+2026-01-30 13:54:20 [INFO]: Valid movement detected!
+2026-01-30 13:54:21 [INFO]: Hysteresis / deadzone detected!
+2026-01-30 13:54:22 [INFO]: Valid movement detected!
+2026-01-30 13:54:25 [INFO]: Valid movement detected!
+2026-01-30 13:54:25 [INFO]: Valid movement detected!
+2026-01-30 13:54:26 [INFO]: Valid movement detected!
+2026-01-30 13:54:28 [INFO]: Valid movement detected!
+2026-01-30 13:54:28 [INFO]: Valid movement detected!
+2026-01-30 13:54:29 [INFO]: Valid movement detected!
+2026-01-30 13:54:32 [INFO]: Valid movement detected!
+2026-01-30 13:54:32 [INFO]: Valid movement detected!
+2026-01-30 13:54:33 [INFO]: Valid movement detected!
+2026-01-30 13:54:33 [INFO]: Valid movement detected!
+2026-01-30 13:54:35 [INFO]: Hysteresis / deadzone detected!
+2026-01-30 13:54:36 [INFO]: Valid movement detected!
+2026-01-30 13:54:36 [INFO]: Valid movement detected!
+2026-01-30 13:54:38 [INFO]: Valid movement detected!
+2026-01-30 13:54:38 [INFO]: Valid movement detected!
+2026-01-30 13:54:39 [INFO]: Valid movement detected!
+2026-01-30 13:54:41 [INFO]: Valid movement detected!
+2026-01-30 13:54:41 [INFO]: Valid movement detected!
+2026-01-30 13:54:42 [INFO]: Valid movement detected!
+2026-01-30 13:54:45 [INFO]: Valid movement detected!
+2026-01-30 13:54:45 [INFO]: Valid movement detected!
+2026-01-30 13:54:46 [INFO]: Valid movement detected!
+2026-01-30 13:54:48 [INFO]: Valid movement detected!
+2026-01-30 13:54:48 [INFO]: Valid movement detected!
+2026-01-30 13:54:49 [INFO]: Valid movement detected!
+2026-01-30 13:54:49 [INFO]: Valid movement detected!
+2026-01-30 13:54:51 [INFO]: Hysteresis / deadzone detected!
+2026-01-30 13:54:52 [INFO]: Valid movement detected!
+2026-01-30 13:54:54 [INFO]: Valid movement detected!
+2026-01-30 13:54:54 [INFO]: Valid movement detected!
+2026-01-30 13:54:55 [INFO]: Valid movement detected!
+2026-01-30 13:54:58 [INFO]: Valid movement detected!
+2026-01-30 13:54:58 [INFO]: Valid movement detected!
+2026-01-30 13:55:00 [INFO]: Valid movement detected!
+2026-01-30 13:55:00 [INFO]: Valid movement detected!
+2026-01-30 13:55:02 [INFO]: Valid movement detected!
+2026-01-30 13:55:02 [INFO]: Valid movement detected!
+2026-01-30 13:55:03 [INFO]: Valid movement detected!
+2026-01-30 13:55:04 [INFO]: Valid movement detected!
+2026-01-30 13:55:04 [INFO]: Valid movement detected!
+2026-01-30 13:55:05 [INFO]: Valid movement detected!
+2026-01-30 13:55:08 [INFO]: Valid movement detected!
+2026-01-30 13:55:08 [INFO]: Valid movement detected!
+2026-01-30 13:55:09 [INFO]: Valid movement detected!
+2026-01-30 13:55:09 [INFO]: Valid movement detected!
+2026-01-30 13:55:10 [INFO]: Hysteresis / deadzone detected!
+2026-01-30 13:55:11 [INFO]: Valid movement detected!
+2026-01-30 13:55:14 [INFO]: Valid movement detected!
+2026-01-30 13:55:14 [INFO]: Valid movement detected!
+2026-01-30 13:55:15 [INFO]: Hysteresis / deadzone detected!
+2026-01-30 13:55:16 [INFO]: Valid movement detected!
+2026-01-30 13:55:16 [INFO]: Valid movement detected!
+2026-01-30 13:55:19 [INFO]: Valid movement detected!
+2026-01-30 13:55:19 [INFO]: Valid movement detected!
+2026-01-30 13:55:20 [INFO]: Valid movement detected!
+2026-01-30 13:55:20 [INFO]: Valid movement detected!
+2026-01-30 13:55:22 [INFO]: Valid movement detected!
+2026-01-30 13:55:22 [INFO]: Valid movement detected!
+2026-01-30 13:55:23 [INFO]: Valid movement detected!
+2026-01-30 13:55:23 [INFO]: Valid movement detected!
+2026-01-30 13:55:25 [INFO]: Hysteresis / deadzone detected!
+2026-01-30 13:55:27 [INFO]: Valid movement detected!
+2026-01-30 13:55:27 [INFO]: Valid movement detected!
+2026-01-30 13:55:27 [INFO]: Hysteresis / deadzone detected!
+2026-01-30 13:55:28 [INFO]: Valid movement detected!
+2026-01-30 13:55:28 [INFO]: Valid movement detected!
+2026-01-30 13:55:29 [INFO]: Hysteresis / deadzone detected!
+2026-01-30 13:55:31 [INFO]: Valid movement detected!
+2026-01-30 13:55:31 [INFO]: Valid movement detected!
+2026-01-30 13:55:32 [INFO]: Hysteresis / deadzone detected!
+2026-01-30 13:55:33 [INFO]: Valid movement detected!
+2026-01-30 13:55:33 [INFO]: Valid movement detected!
+2026-01-30 13:55:34 [INFO]: Valid movement detected!
+2026-01-30 13:55:34 [INFO]: Valid movement detected!
+2026-01-30 13:55:34 [INFO]: Stop requested; breaking control loop.
+2026-01-30 13:55:34 [INFO]: Generating plots and rewinding robot...
+2026-01-30 13:55:34 [INFO]: /home/artery/catkin_ws/src/filippo_controller/experiments/to_evaluate/run_2026-01-30_13-53-03/results/results.csv
+2026-01-30 13:55:34 [INFO]: Rewinding robot (ML: 599 → AP: 406 → INS: -7614)...
+2026-01-30 13:57:41 [INFO]: Robot successfully brought back to start position.
+2026-01-30 13:57:41 [INFO]: signal_shutdown [Stop requested and finalize completed.]
+2026-01-30 13:57:41 [INFO]: topic[/rosout] removing connection to /rosout
+2026-01-30 13:57:41 [INFO]: topic[/tip_pose_topic] removing connection to /rviz_1769777554341113223
+2026-01-30 13:57:41 [INFO]: topic[/base_pose_topic] removing connection to /rviz_1769777554341113223
+2026-01-30 13:57:41 [INFO]: topic[/valve_pose_topic] removing connection to /rviz_1769777554341113223
+2026-01-30 13:57:41 [INFO]: topic[/catheter_shape_marker] removing connection to /rviz_1769777554341113223
+2026-01-30 13:57:41 [INFO]: topic[/displacements_VC] removing connection to /Arduino_node
+2026-01-30 13:57:41 [INFO]: topic[/reset_motors] removing connection to /Arduino_node
+2026-01-30 13:57:41 [INFO]: topic[/trajectory_path] removing connection to /rviz_1769777554341113223
+2026-01-30 13:57:41 [INFO]: topic[/waypoint] removing connection to /rviz_1769777554341113223
+2026-01-30 13:57:41 [INFO]: topic[/trajectory_points] removing connection to /rviz_1769777554341113223
+2026-01-30 13:57:41 [ERROR]: Unable to report rosout: publish() to a closed topic
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal_disturbances.py", line 202, in callback
+    self.publish_pose(self.tip_pub, self.tip_pose, 'world')
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal_disturbances.py", line 496, in publish_pose
+    publisher.publish(pose_msg)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 882, in publish
+    self.impl.publish(data)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 1041, in publish
+    raise ROSException("publish() to a closed topic")
+rospy.exceptions.ROSException: publish() to a closed topic
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/rosout.py", line 100, in _rosout
+    _rosout_pub.publish(l)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 882, in publish
+    self.impl.publish(data)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 1041, in publish
+    raise ROSException("publish() to a closed topic")
+rospy.exceptions.ROSException: publish() to a closed topic
+
+2026-01-30 13:57:41 [INFO]: topic[/aurora_data] removing connection to http://artery-desktop:39959/
+2026-01-30 13:57:41 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal_disturbances.AuroraProcessing object at 0x7f5f6d733610>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal_disturbances.py", line 202, in callback
+    self.publish_pose(self.tip_pub, self.tip_pose, 'world')
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal_disturbances.py", line 496, in publish_pose
+    publisher.publish(pose_msg)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 882, in publish
+    self.impl.publish(data)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 1041, in publish
+    raise ROSException("publish() to a closed topic")
+rospy.exceptions.ROSException: publish() to a closed topic
+
+2026-01-30 13:57:41 [INFO]: topic[/Finish_Actuation] removing connection to http://artery-desktop:43675/
+2026-01-30 13:57:41 [INFO]: Stop requested and finalize completed.
+2026-01-30 13:57:41 [INFO]: signal_shutdown [atexit]

@@ -1,0 +1,2027 @@
+2025-10-16 13:32:00 [INFO]: Logging initialized. All messages will go to console and /home/artery/catkin_ws/src/filippo_controller/experiments/to_evaluate/run_2025-10-16_13-32-00/logs/run.log
+2025-10-16 13:32:00 [INFO]: Workspace created at: /home/artery/catkin_ws/src/filippo_controller/experiments/to_evaluate/run_2025-10-16_13-32-00
+2025-10-16 13:32:00 [INFO]: Press 't' to stop and generate plots.
+2025-10-16 13:32:00 [INFO]: Node running. Press Ctrl+C to stop and generate plots.
+2025-10-16 13:32:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:00 [INFO]: Hysteresis found !!!
+2025-10-16 13:32:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:15 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:20 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:21 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:21 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:25 [INFO]: Hysteresis found !!!
+2025-10-16 13:32:25 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:26 [INFO]: Hysteresis found !!!
+2025-10-16 13:32:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:27 [INFO]: Hysteresis found !!!
+2025-10-16 13:32:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:29 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:30 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:32 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:33 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:34 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:35 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:36 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:37 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:38 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:40 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:41 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:44 [INFO]: Hysteresis found !!!
+2025-10-16 13:32:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:45 [INFO]: Hysteresis found !!!
+2025-10-16 13:32:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:46 [INFO]: Hysteresis found !!!
+2025-10-16 13:32:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:56 [INFO]: Hysteresis found !!!
+2025-10-16 13:32:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:57 [INFO]: Hysteresis found !!!
+2025-10-16 13:32:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:32:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:15 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:18 [INFO]: Hysteresis found !!!
+2025-10-16 13:33:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:20 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:20 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:21 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:25 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:29 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:29 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:30 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:30 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:31 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:31 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:32 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:32 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:33 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:34 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:34 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:35 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:35 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:36 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:37 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:38 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:41 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:42 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:33:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:15 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:15 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:20 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:20 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:21 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:21 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:25 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:25 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:29 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:29 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:30 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:30 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:31 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:31 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:32 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:32 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:33 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:33 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:34 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:34 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:35 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:35 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:36 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:36 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:37 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:37 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:38 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:38 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:40 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:40 [INFO]: Hysteresis found !!!
+2025-10-16 13:34:40 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:41 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:41 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:42 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:42 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:34:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:15 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:15 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:20 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:20 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:21 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:25 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:29 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:29 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:30 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:31 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:32 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:32 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:33 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:34 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:34 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:35 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:36 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:36 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:37 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:37 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:38 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:40 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:41 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:41 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:42 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:35:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:15 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:20 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:21 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:25 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:29 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:30 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:30 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:31 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:31 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:32 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:33 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:34 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:34 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:35 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:36 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:36 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:37 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:37 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:38 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:40 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:41 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:41 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:42 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:36:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:15 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:20 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:21 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:25 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:29 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:30 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:31 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:32 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:33 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:34 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:35 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:36 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:37 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:37 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:38 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:40 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:41 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:42 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:51 [INFO]: Hysteresis found !!!
+2025-10-16 13:37:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:52 [INFO]: Hysteresis found !!!
+2025-10-16 13:37:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:55 [INFO]: Hysteresis found !!!
+2025-10-16 13:37:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:57 [INFO]: Hysteresis found !!!
+2025-10-16 13:37:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:37:59 [INFO]: Hysteresis found !!!
+2025-10-16 13:38:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:01 [INFO]: Hysteresis found !!!
+2025-10-16 13:38:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:02 [INFO]: Hysteresis found !!!
+2025-10-16 13:38:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:04 [INFO]: Hysteresis found !!!
+2025-10-16 13:38:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:06 [INFO]: Hysteresis found !!!
+2025-10-16 13:38:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:08 [INFO]: Hysteresis found !!!
+2025-10-16 13:38:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:15 [INFO]: Hysteresis found !!!
+2025-10-16 13:38:15 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:20 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:21 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:25 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:29 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:30 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:31 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:32 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:32 [INFO]: Hysteresis found !!!
+2025-10-16 13:38:33 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:33 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:34 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:35 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:35 [INFO]: Hysteresis found !!!
+2025-10-16 13:38:36 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:36 [INFO]: Hysteresis found !!!
+2025-10-16 13:38:37 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:38 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:40 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:40 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:41 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:42 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:38:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:15 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:20 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:21 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:25 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:25 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:29 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:30 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:31 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:31 [INFO]: Hysteresis found !!!
+2025-10-16 13:39:32 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:32 [INFO]: Hysteresis found !!!
+2025-10-16 13:39:33 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:34 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:35 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:35 [INFO]: Hysteresis found !!!
+2025-10-16 13:39:36 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:37 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:37 [INFO]: Hysteresis found !!!
+2025-10-16 13:39:38 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:38 [INFO]: Hysteresis found !!!
+2025-10-16 13:39:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:40 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:40 [INFO]: Hysteresis found !!!
+2025-10-16 13:39:41 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:42 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:42 [INFO]: Hysteresis found !!!
+2025-10-16 13:39:42 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:43 [INFO]: Hysteresis found !!!
+2025-10-16 13:39:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:45 [INFO]: Hysteresis found !!!
+2025-10-16 13:39:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:46 [INFO]: Hysteresis found !!!
+2025-10-16 13:39:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:48 [INFO]: Hysteresis found !!!
+2025-10-16 13:39:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:49 [INFO]: Hysteresis found !!!
+2025-10-16 13:39:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:50 [INFO]: Hysteresis found !!!
+2025-10-16 13:39:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:54 [INFO]: Hysteresis found !!!
+2025-10-16 13:39:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:56 [INFO]: Hysteresis found !!!
+2025-10-16 13:39:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:39:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:01 [INFO]: Hysteresis found !!!
+2025-10-16 13:40:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:15 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:20 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:21 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:25 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:29 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:31 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:32 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:33 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:34 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:35 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:36 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:37 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:40 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:41 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:42 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:47 [INFO]: Hysteresis found !!!
+2025-10-16 13:40:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:49 [INFO]: Hysteresis found !!!
+2025-10-16 13:40:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:50 [INFO]: Hysteresis found !!!
+2025-10-16 13:40:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:54 [INFO]: Hysteresis found !!!
+2025-10-16 13:40:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:40:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:03 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:11 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:15 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:17 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:20 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:21 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:25 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:26 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:27 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:28 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:29 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:29 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:30 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:30 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:30 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:31 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:32 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:32 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:33 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:33 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:33 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:34 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:35 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:35 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:36 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:36 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:37 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:37 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:38 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:38 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:39 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:40 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:40 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:41 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:41 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:42 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:42 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:43 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:44 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:45 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:46 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:47 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:47 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:48 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:49 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:50 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:51 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:52 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:53 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:54 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:55 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:56 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:57 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:58 [INFO]: Hysteresis found !!!
+2025-10-16 13:41:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:41:59 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:00 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:01 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:03 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:04 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:06 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:07 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:08 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:10 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:12 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:14 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:15 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:16 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:17 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:19 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:20 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:21 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:23 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:26 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:27 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:28 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:29 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:29 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:30 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:30 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:31 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:31 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:32 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:33 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:33 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:34 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:35 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:35 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:37 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:37 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:38 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:40 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:40 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:41 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:41 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:42 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:42 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:44 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:45 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:46 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:47 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:48 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:51 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:52 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:53 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:54 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:56 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:57 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:58 [INFO]: Hysteresis found !!!
+2025-10-16 13:42:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:42:59 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:00 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:02 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:03 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:05 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:06 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:07 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:08 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:09 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:11 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:13 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:14 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:15 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:15 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:16 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:17 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:18 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:19 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:20 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:21 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:22 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:23 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:24 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:25 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:25 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:26 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:27 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:28 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:29 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:29 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:30 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:30 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:32 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:33 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:33 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:34 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:34 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:35 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:35 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:36 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:36 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:37 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:37 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:38 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:38 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:39 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:41 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:42 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:42 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:43 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:44 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:45 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:46 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:49 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:50 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:51 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:52 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:53 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:54 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:57 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:43:58 [INFO]: Hysteresis found !!!
+2025-10-16 13:43:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:01 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:02 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:03 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:05 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:06 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:07 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:09 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:10 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:12 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:13 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:14 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:15 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:16 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:18 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:20 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:21 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:21 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:22 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:23 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:25 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:25 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:27 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:28 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:29 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:29 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:30 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:30 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:32 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:33 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:34 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:34 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:35 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:35 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:36 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:36 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:37 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:40 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:40 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:42 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:43 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:44 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:45 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:50 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:52 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:54 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:44:57 [INFO]: Hysteresis found !!!
+2025-10-16 13:44:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:01 [INFO]: Hysteresis found !!!
+2025-10-16 13:45:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:02 [INFO]: Hysteresis found !!!
+2025-10-16 13:45:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:05 [INFO]: Hysteresis found !!!
+2025-10-16 13:45:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:09 [INFO]: Hysteresis found !!!
+2025-10-16 13:45:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:13 [INFO]: Hysteresis found !!!
+2025-10-16 13:45:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:21 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:25 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:30 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:32 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:33 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:35 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:36 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:38 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:38 [INFO]: Stop requested (t). Waiting for control loop to exit...
+2025-10-16 13:45:38 [INFO]: Stop requested; breaking control loop.
+2025-10-16 13:45:38 [INFO]: Generating plots and rewinding robot...
+2025-10-16 13:45:38 [INFO]: /home/artery/catkin_ws/src/filippo_controller/experiments/to_evaluate/run_2025-10-16_13-32-00/results/results.csv
+2025-10-16 13:45:38 [INFO]: Rewinding robot actuations...
+2025-10-16 13:45:38 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:40 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:40 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:40 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:40 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:41 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:41 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:41 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:41 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:41 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:42 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:42 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:42 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:42 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:42 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:45:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:15 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:15 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:15 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:15 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:15 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:15 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:20 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:20 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:20 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:20 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:21 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:21 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:21 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:21 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:21 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:25 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:25 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:25 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:25 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:25 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:25 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:29 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:29 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:29 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:29 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:29 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:29 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:30 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:30 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:30 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:30 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:30 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:30 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:30 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:31 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:31 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:31 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:31 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:31 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:31 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:32 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:32 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:32 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:32 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:32 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:33 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:33 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:33 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:33 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:33 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:34 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:34 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:34 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:34 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:34 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:35 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:35 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:35 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:35 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:36 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:36 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:36 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:36 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:36 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:37 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:37 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:37 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:37 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:37 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:38 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:38 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:38 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:38 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:40 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:40 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:40 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:40 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:40 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:41 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:41 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:41 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:41 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:41 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:42 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:42 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:42 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:42 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:42 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:46:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:15 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:15 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:15 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:15 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:20 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:20 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:20 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:20 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:21 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:21 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:21 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:21 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:25 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:25 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:25 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:25 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:25 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:29 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:29 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:29 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:30 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:30 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:30 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:30 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:31 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:31 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:31 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:32 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:32 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:32 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:32 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:33 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:33 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:33 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:34 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:34 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:34 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:34 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:35 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:35 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:35 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:35 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:36 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:36 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:36 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:36 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:37 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:37 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:37 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:37 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:38 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:38 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:38 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:38 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:39 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:40 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:40 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:40 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:41 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:41 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:41 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:42 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:42 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:42 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:43 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:44 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:45 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:46 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:47 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:48 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:49 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:50 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:51 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:52 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:53 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:54 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:55 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:56 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:57 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:58 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:47:59 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:00 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:01 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:02 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:03 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:04 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:05 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:06 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:07 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:08 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:09 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:10 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:11 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:12 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:13 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:14 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:15 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:15 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:16 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:17 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:18 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:19 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:20 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:20 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:20 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:20 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:21 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:21 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:21 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:22 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:23 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:24 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:25 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:25 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:26 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:27 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:28 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:29 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:29 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:29 [INFO]: Arduino actuation completed: 1
+2025-10-16 13:48:30 [INFO]: Arduino actuation completed: 1

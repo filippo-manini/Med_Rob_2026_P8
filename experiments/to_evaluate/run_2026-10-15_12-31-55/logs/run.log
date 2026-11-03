@@ -1,0 +1,744 @@
+2026-10-15 12:31:55 [INFO]: Logging initialized. All messages will go to console and /home/artery/catkin_ws/src/filippo_controller/experiments/to_evaluate/run_2026-10-15_12-31-55/logs/run.log
+2026-10-15 12:31:55 [INFO]: Workspace created at: /home/artery/catkin_ws/src/filippo_controller/experiments/to_evaluate/run_2026-10-15_12-31-55
+2026-10-15 12:31:55 [INFO]: Press 't' to stop and generate plots.
+2026-10-15 12:31:55 [INFO]: Node running. Press Ctrl+C to stop and generate plots.
+2026-10-15 12:32:20 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:20 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:21 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:21 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:21 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:21 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:21 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:21 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:21 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:21 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:21 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:21 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:21 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:21 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:22 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:22 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:22 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:22 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:22 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:22 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:22 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:22 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:22 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:22 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:22 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:23 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:23 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:23 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:23 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:23 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:23 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:23 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:23 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:23 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:23 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:23 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:24 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:24 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:24 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:24 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:24 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:24 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:24 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:24 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:24 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:24 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:24 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:24 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:25 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:25 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:25 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:25 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:25 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:25 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:25 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:25 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:25 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:25 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:25 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:26 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:26 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:26 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:26 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:26 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:26 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:26 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:26 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:26 [ERROR]: bad callback: <bound method AuroraProcessing.callback of <nodes.aurora_processing_new_cal.AuroraProcessing object at 0x7f07cdc675e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 199, in callback
+    self._update_poses_EMA()
+  File "/home/artery/catkin_ws/src/filippo_controller/scripts/../src/nodes/aurora_processing_new_cal.py", line 501, in _update_poses_EMA
+    self.valve_pose[:3, 3] - controller.valve_base,
+NameError: name 'controller' is not defined
+
+2026-10-15 12:32:26 [INFO]: signal_shutdown [signal-2]
+2026-10-15 12:32:26 [INFO]: topic[/rosout] removing connection to /rosout
+2026-10-15 12:32:26 [INFO]: topic[/tip_pose_topic] removing connection to /rviz_1792060305553507339
+2026-10-15 12:32:26 [INFO]: topic[/base_pose_topic] removing connection to /rviz_1792060305553507339
+2026-10-15 12:32:26 [INFO]: topic[/valve_pose_topic] removing connection to /rviz_1792060305553507339
+2026-10-15 12:32:26 [INFO]: topic[/catheter_shape_marker] removing connection to /rviz_1792060305553507339
+2026-10-15 12:32:26 [INFO]: topic[/displacements_VC] removing connection to /Arduino_node
+2026-10-15 12:32:26 [INFO]: topic[/reset_motors] removing connection to /Arduino_node
+2026-10-15 12:32:26 [INFO]: topic[/trajectory_path] removing connection to /rviz_1792060305553507339
+2026-10-15 12:32:26 [INFO]: topic[/waypoint] removing connection to /rviz_1792060305553507339
+2026-10-15 12:32:26 [INFO]: topic[/trajectory_points] removing connection to /rviz_1792060305553507339
+2026-10-15 12:32:26 [INFO]: topic[/aurora_data] removing connection to http://artery-desktop:46169/
+2026-10-15 12:32:26 [INFO]: topic[/Finish_Actuation] removing connection to http://artery-desktop:41509/
+2026-10-15 12:32:26 [INFO]: signal-2
+2026-10-15 12:32:27 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:28 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:28 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:29 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:30 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:30 [INFO]: signal_shutdown [signal-2]
+2026-10-15 12:32:31 [INFO]: signal_shutdown [signal-2]
+2026-10-15 12:32:31 [INFO]: signal_shutdown [signal-2]
+2026-10-15 12:32:31 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:31 [INFO]: signal_shutdown [signal-2]
+2026-10-15 12:32:31 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:32 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:33 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:34 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:34 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:35 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:36 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:37 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:37 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:38 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:39 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:40 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:40 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:41 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:42 [INFO]: Stop requested (t). Waiting for control loop to exit...
+2026-10-15 12:32:42 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:43 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:44 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:44 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:45 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:46 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:47 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:47 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:48 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:49 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:50 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:50 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:51 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:52 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:53 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:53 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:54 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:55 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:56 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:56 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:57 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:58 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:59 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:32:59 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:00 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:01 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:02 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:02 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:03 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:04 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:05 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:05 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:06 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:07 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:08 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:08 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:09 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:10 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:11 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:11 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:12 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:13 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:14 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:14 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:15 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:16 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:17 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:17 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:18 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:19 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:20 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:20 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:21 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:22 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:23 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:23 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:24 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:25 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:26 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:26 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:27 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:28 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:29 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:29 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:30 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:31 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:32 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:32 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:33 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:34 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:35 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:35 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:36 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:37 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:38 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:38 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:39 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:40 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:41 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:41 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:42 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:43 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:44 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:44 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:45 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:46 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:47 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:47 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:48 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:49 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:50 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:50 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:33:51 [INFO]: Hysteresis / deadzone detected!

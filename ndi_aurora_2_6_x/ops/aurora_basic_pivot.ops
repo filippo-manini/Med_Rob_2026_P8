@@ -1,0 +1,74 @@
+
+////
+//// OPS Launch for Basic Aurora Example
+////
+//// Author: Sergio Portoles
+
+
+//// Set the Time Samples
+var double Ts_aurora = 0.025
+var int Ts_Reporting = 1
+
+////
+//// Load of Aurora component
+////
+
+import("rtt_ros")
+import("rtt_rosnode")
+import("ndi_aurora_2_6_x")
+import("rtt_ndi_aurora_msgs")
+loadComponent("Aurora","AuroraMeasurementSystem::AuroraMeasurementSystem")
+Aurora.loadService("marshalling")
+//Aurora.marshalling.loadProperties ("orocos/cpf/AuroraMeasurementSystem_01.cpf")
+
+
+
+// For FILIPPO and NICOLA and LEONARDO
+Aurora.marshalling.loadProperties ("orocos/cpf/AuroraMeasurementSensor_Catheter_2DOF_valve.cpf")
+//Aurora.marshalling.loadProperties ("orocos/cpf/AuroraMeasurementSensor_Catheter_2Sensors_pen_valve .cpf")
+
+// DO NOT COMMENT THIS LINE!
+setActivity("Aurora",Ts_aurora,0,ORO_SCHED_OTHER)
+
+
+////
+//// Load of the Reporter
+////
+
+loadComponent("Reporter","OCL::FileReporting")
+Reporter.loadService("marshalling")
+Reporter.marshalling.loadProperties ("orocos/cpf/reporterAurora.cpf")
+setActivity("Reporter",Ts_Reporting,0,ORO_SCHED_OTHER)
+
+////
+//// Make some connections
+////
+
+var ConnPolicy cp
+
+////
+//// Reporting
+////
+
+connectPeers ("Aurora","Reporter")
+Reporter.reportPort ("Aurora","toolFramesPort")
+
+////
+//// Configure and Start Components
+////
+
+Aurora.configure()
+
+Aurora.start()
+////Aurora.toolFramesPort.getTypeName()
+////
+//// Connections to ROS
+////
+// Connections to ROS
+
+var ConnPolicy cp_ros
+
+cp_ros.transport=3
+cp_ros.name_id="aurora_data"
+stream("Aurora.toolFramesPort",cp_ros)
+

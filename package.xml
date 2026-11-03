@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>Med_rob_2026_P8</name>
+  <version>0.0.0</version>
+  <description>The Med Rob package</description>
+
+  <maintainer email="filippo.manini@mail.polimi.it">Filippo Manini</maintainer>
+  <license>MIT</license>
+  <author email="filippo.manini@mail.polimi.it">Filippo Manini</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <export>
+  </export>
+</package>
+

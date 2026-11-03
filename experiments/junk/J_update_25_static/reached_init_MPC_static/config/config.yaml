@@ -1,0 +1,93 @@
+processor:
+  module: nodes.aurora_processing
+  class: AuroraProcessing
+  params:
+    calibrate: True
+  attributes:
+    model_identified: False
+    generate_static: True
+    generate_dynamic: False
+    valve_base: [41.7859398339077, 25.597567969818, 15.3576809937915] 
+    valve_amplitude: 0.0
+    valve_frequency: 0.4 
+    valve_dir: [1.0, 1.0, -0.4]
+
+communicator:
+  module: nodes.arduino_communicator
+  class: ArduinoCommunicator
+  params: {}
+
+container:
+  module: estimators.Container
+  class: Container
+  params:
+    beta: 0.1
+    lambda_forget: 0.9
+    sigma_forget: 0.5
+    horizon_size: 20
+
+jacobian_estimator:
+  module: estimators.Jacobian_estimator
+  class: JacobianEstimator
+  params:
+    jacobian_shape: 3
+    container: "$container"
+    store_previous: True
+  attributes:
+    catheter_diameter: 3
+    tolerance: 1e-4
+    max_iter: 1000
+
+trajectory_estimator:
+  module: estimators.trajectory_estimator
+  class: TrajectoryEstimator
+  params:
+    dim: 3
+    jacobian_estimator: "$jacobian_estimator"
+  attributes:
+    min_step: 0.1
+    max_step: 5
+    f_weight: 1
+    pos_weight: 10
+    target_weight: 100
+    tol : 1e-2
+    max_iter : 1000
+    verbosity : 1
+    analytical : False
+    
+
+valve_predictor:
+  module: estimators.Extended_Kalman_Predictor
+  class: KalmanPredictor
+  params:
+    initial_state: [0, 0, 0]
+    initial_covariance: [1, 0, 0, 0, 1, 0, 0, 0, 1]
+    process_noise: [0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01]
+    measurement_noise: 0.1
+    measured_frequency: 50
+
+pid_controller:
+  module: controllers.PID_controller
+  class: PID_Controller
+  params:
+   Kp: [0.4, 0.8, 0.8]
+   Kd: [0.1, 0.4, 0.4]
+   Ki: [0.0, 0.0, 0.0]
+
+controller:
+  module: controllers.MPC_controller_J_EST_init
+  class: Controller
+  params:
+    container: "$container"
+    jacobian_estimator: "$jacobian_estimator"
+    trajectory_estimator: "$trajectory_estimator"
+    kalman_predictor: "$valve_predictor"
+    pid_controller: "$pid_controller"
+    iteration: 2
+    delta_t_btw_actuations: 0.5
+    dl_to_steps: [10, -10, 10]
+  attributes:
+    motor_threshold: 1500    
+    
+ 
+

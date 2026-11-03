@@ -1,0 +1,18 @@
+2026-10-15 12:26:28 [INFO]: Logging initialized. All messages will go to console and /home/artery/catkin_ws/src/filippo_controller/experiments/to_evaluate/run_2026-10-15_12-26-28/logs/run.log
+2026-10-15 12:26:28 [INFO]: Workspace created at: /home/artery/catkin_ws/src/filippo_controller/experiments/to_evaluate/run_2026-10-15_12-26-28
+2026-10-15 12:26:28 [INFO]: Press 't' to stop and generate plots.
+2026-10-15 12:26:28 [INFO]: Node running. Press Ctrl+C to stop and generate plots.
+2026-10-15 12:26:30 [INFO]: signal_shutdown [atexit]
+2026-10-15 12:26:30 [INFO]: topic[/rosout] removing connection to /rosout
+2026-10-15 12:26:30 [INFO]: topic[/tip_pose_topic] removing connection to /rviz_1792059980453479265
+2026-10-15 12:26:30 [INFO]: topic[/base_pose_topic] removing connection to /rviz_1792059980453479265
+2026-10-15 12:26:30 [INFO]: topic[/valve_pose_topic] removing connection to /rviz_1792059980453479265
+2026-10-15 12:26:30 [INFO]: topic[/catheter_shape_marker] removing connection to /rviz_1792059980453479265
+2026-10-15 12:26:30 [INFO]: topic[/displacements_VC] removing connection to /Arduino_node
+2026-10-15 12:26:30 [INFO]: topic[/reset_motors] removing connection to /Arduino_node
+2026-10-15 12:26:30 [INFO]: topic[/trajectory_path] removing connection to /rviz_1792059980453479265
+2026-10-15 12:26:30 [INFO]: topic[/waypoint] removing connection to /rviz_1792059980453479265
+2026-10-15 12:26:30 [INFO]: topic[/trajectory_points] removing connection to /rviz_1792059980453479265
+2026-10-15 12:26:30 [INFO]: topic[/aurora_data] removing connection to http://artery-desktop:38321/
+2026-10-15 12:26:30 [INFO]: topic[/Finish_Actuation] removing connection to http://artery-desktop:41293/
+2026-10-15 12:26:30 [INFO]: atexit

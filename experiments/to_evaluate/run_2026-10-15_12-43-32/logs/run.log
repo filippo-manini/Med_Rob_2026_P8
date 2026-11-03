@@ -1,0 +1,57 @@
+2026-10-15 12:43:32 [INFO]: Logging initialized. All messages will go to console and /home/artery/catkin_ws/src/filippo_controller/experiments/to_evaluate/run_2026-10-15_12-43-32/logs/run.log
+2026-10-15 12:43:32 [INFO]: Workspace created at: /home/artery/catkin_ws/src/filippo_controller/experiments/to_evaluate/run_2026-10-15_12-43-32
+2026-10-15 12:43:32 [INFO]: Press 't' to stop and generate plots.
+2026-10-15 12:43:32 [INFO]: Node running. Press Ctrl+C to stop and generate plots.
+2026-10-15 12:43:58 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:43:59 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:44:00 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:44:01 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:44:01 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:44:02 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:44:03 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:44:04 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:44:04 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:44:05 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:44:06 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:44:07 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:44:07 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:44:08 [INFO]: Stop requested (t). Waiting for control loop to exit...
+2026-10-15 12:44:08 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:44:09 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:44:10 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:44:10 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:44:11 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:44:12 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:44:13 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:44:13 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:44:14 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:44:15 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:44:16 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:44:16 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:44:17 [INFO]: Hysteresis / deadzone detected!
+2026-10-15 12:44:18 [INFO]: Valid movement detected!
+2026-10-15 12:44:19 [INFO]: Valid movement detected!
+2026-10-15 12:44:20 [INFO]: Valid movement detected!
+2026-10-15 12:44:21 [INFO]: Valid movement detected!
+2026-10-15 12:44:21 [INFO]: Stop requested; breaking control loop.
+2026-10-15 12:44:21 [INFO]: Generating plots and rewinding robot...
+2026-10-15 12:44:21 [INFO]: /home/artery/catkin_ws/src/filippo_controller/experiments/to_evaluate/run_2026-10-15_12-43-32/results/results.csv
+2026-10-15 12:44:21 [ERROR]: Failed to generate plots: reduction operation 'argmin' not allowed for this dtype
+2026-10-15 12:44:21 [INFO]: Rewinding robot (ML: 170 → AP: 100 → INS: 0)...
+2026-10-15 12:44:34 [INFO]: INS already at start — no rewind needed.
+2026-10-15 12:44:34 [INFO]: Robot successfully brought back to start position.
+2026-10-15 12:44:34 [INFO]: signal_shutdown [Stop requested and finalize completed.]
+2026-10-15 12:44:34 [INFO]: topic[/rosout] removing connection to /rosout
+2026-10-15 12:44:34 [INFO]: topic[/tip_pose_topic] removing connection to /rviz_1792060998901529852
+2026-10-15 12:44:34 [INFO]: topic[/base_pose_topic] removing connection to /rviz_1792060998901529852
+2026-10-15 12:44:34 [INFO]: topic[/valve_pose_topic] removing connection to /rviz_1792060998901529852
+2026-10-15 12:44:34 [INFO]: topic[/catheter_shape_marker] removing connection to /rviz_1792060998901529852
+2026-10-15 12:44:34 [INFO]: topic[/displacements_VC] removing connection to /Arduino_node
+2026-10-15 12:44:34 [INFO]: topic[/reset_motors] removing connection to /Arduino_node
+2026-10-15 12:44:34 [INFO]: topic[/trajectory_path] removing connection to /rviz_1792060998901529852
+2026-10-15 12:44:34 [INFO]: topic[/waypoint] removing connection to /rviz_1792060998901529852
+2026-10-15 12:44:34 [INFO]: topic[/trajectory_points] removing connection to /rviz_1792060998901529852
+2026-10-15 12:44:34 [INFO]: topic[/aurora_data] removing connection to http://artery-desktop:34851/
+2026-10-15 12:44:34 [INFO]: topic[/Finish_Actuation] removing connection to http://artery-desktop:40099/
+2026-10-15 12:44:34 [INFO]: Stop requested and finalize completed.
+2026-10-15 12:44:35 [INFO]: signal_shutdown [atexit]

@@ -1,0 +1,192 @@
+2025-12-17 16:28:44 [INFO]: Logging initialized. All messages will go to console and /home/artery/catkin_ws/src/filippo_controller/experiments/to_evaluate/run_2025-12-17_16-28-44/logs/run.log
+2025-12-17 16:28:44 [INFO]: Workspace created at: /home/artery/catkin_ws/src/filippo_controller/experiments/to_evaluate/run_2025-12-17_16-28-44
+2025-12-17 16:28:44 [INFO]: Press 't' to stop and generate plots.
+2025-12-17 16:28:44 [INFO]: Node running. Press Ctrl+C to stop and generate plots.
+2025-12-17 16:28:45 [INFO]: Valid movement detected!
+2025-12-17 16:28:46 [INFO]: Valid movement detected!
+2025-12-17 16:28:47 [INFO]: Valid movement detected!
+2025-12-17 16:28:48 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:28:50 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:28:51 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:28:52 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:28:53 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:28:54 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:28:55 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:28:56 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:28:57 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:28:58 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:28:59 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:29:01 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:29:02 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:29:03 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:29:04 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:29:05 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:29:06 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:29:07 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:29:08 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:29:09 [INFO]: Valid movement detected!
+2025-12-17 16:29:10 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:29:12 [INFO]: Valid movement detected!
+2025-12-17 16:29:13 [INFO]: Valid movement detected!
+2025-12-17 16:29:14 [INFO]: Valid movement detected!
+2025-12-17 16:29:15 [INFO]: Valid movement detected!
+2025-12-17 16:29:15 [INFO]: Valid movement detected!
+2025-12-17 16:29:16 [INFO]: Valid movement detected!
+2025-12-17 16:29:16 [INFO]: Valid movement detected!
+2025-12-17 16:29:17 [INFO]: Valid movement detected!
+2025-12-17 16:29:18 [INFO]: Valid movement detected!
+2025-12-17 16:29:18 [INFO]: Valid movement detected!
+2025-12-17 16:29:18 [INFO]: Valid movement detected!
+2025-12-17 16:29:18 [INFO]: Valid movement detected!
+2025-12-17 16:29:20 [INFO]: Valid movement detected!
+2025-12-17 16:29:21 [INFO]: Valid movement detected!
+2025-12-17 16:29:21 [INFO]: Valid movement detected!
+2025-12-17 16:29:21 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:29:22 [INFO]: Valid movement detected!
+2025-12-17 16:29:23 [INFO]: Valid movement detected!
+2025-12-17 16:29:23 [INFO]: Valid movement detected!
+2025-12-17 16:29:24 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:29:25 [INFO]: Valid movement detected!
+2025-12-17 16:29:26 [INFO]: Valid movement detected!
+2025-12-17 16:29:26 [INFO]: Valid movement detected!
+2025-12-17 16:29:26 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:29:28 [INFO]: Valid movement detected!
+2025-12-17 16:29:29 [INFO]: Valid movement detected!
+2025-12-17 16:29:29 [INFO]: Valid movement detected!
+2025-12-17 16:29:29 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:29:30 [INFO]: Valid movement detected!
+2025-12-17 16:29:31 [INFO]: Valid movement detected!
+2025-12-17 16:29:31 [INFO]: Valid movement detected!
+2025-12-17 16:29:32 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:29:33 [INFO]: Valid movement detected!
+2025-12-17 16:29:34 [INFO]: Valid movement detected!
+2025-12-17 16:29:34 [INFO]: Valid movement detected!
+2025-12-17 16:29:34 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:29:36 [INFO]: Valid movement detected!
+2025-12-17 16:29:36 [INFO]: Valid movement detected!
+2025-12-17 16:29:38 [INFO]: Valid movement detected!
+2025-12-17 16:29:38 [INFO]: Valid movement detected!
+2025-12-17 16:29:40 [INFO]: Valid movement detected!
+2025-12-17 16:29:40 [INFO]: Valid movement detected!
+2025-12-17 16:29:42 [INFO]: Valid movement detected!
+2025-12-17 16:29:42 [INFO]: Valid movement detected!
+2025-12-17 16:29:44 [INFO]: Valid movement detected!
+2025-12-17 16:29:44 [INFO]: Valid movement detected!
+2025-12-17 16:29:46 [INFO]: Valid movement detected!
+2025-12-17 16:29:46 [INFO]: Valid movement detected!
+2025-12-17 16:29:49 [INFO]: Valid movement detected!
+2025-12-17 16:29:49 [INFO]: Valid movement detected!
+2025-12-17 16:29:50 [INFO]: Valid movement detected!
+2025-12-17 16:29:50 [INFO]: Valid movement detected!
+2025-12-17 16:29:53 [INFO]: Valid movement detected!
+2025-12-17 16:29:53 [INFO]: Valid movement detected!
+2025-12-17 16:29:56 [INFO]: Valid movement detected!
+2025-12-17 16:29:56 [INFO]: Valid movement detected!
+2025-12-17 16:29:58 [INFO]: Valid movement detected!
+2025-12-17 16:29:58 [INFO]: Valid movement detected!
+2025-12-17 16:29:59 [INFO]: Valid movement detected!
+2025-12-17 16:29:59 [INFO]: Valid movement detected!
+2025-12-17 16:30:01 [INFO]: Valid movement detected!
+2025-12-17 16:30:01 [INFO]: Valid movement detected!
+2025-12-17 16:30:03 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:30:04 [INFO]: Valid movement detected!
+2025-12-17 16:30:04 [INFO]: Valid movement detected!
+2025-12-17 16:30:07 [INFO]: Valid movement detected!
+2025-12-17 16:30:07 [INFO]: Valid movement detected!
+2025-12-17 16:30:08 [INFO]: Valid movement detected!
+2025-12-17 16:30:08 [INFO]: Valid movement detected!
+2025-12-17 16:30:10 [INFO]: Valid movement detected!
+2025-12-17 16:30:10 [INFO]: Valid movement detected!
+2025-12-17 16:30:12 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:30:14 [INFO]: Valid movement detected!
+2025-12-17 16:30:14 [INFO]: Valid movement detected!
+2025-12-17 16:30:15 [INFO]: Valid movement detected!
+2025-12-17 16:30:15 [INFO]: Valid movement detected!
+2025-12-17 16:30:17 [INFO]: Valid movement detected!
+2025-12-17 16:30:17 [INFO]: Valid movement detected!
+2025-12-17 16:30:19 [INFO]: Valid movement detected!
+2025-12-17 16:30:19 [INFO]: Valid movement detected!
+2025-12-17 16:30:21 [INFO]: Valid movement detected!
+2025-12-17 16:30:21 [INFO]: Valid movement detected!
+2025-12-17 16:30:23 [INFO]: Valid movement detected!
+2025-12-17 16:30:23 [INFO]: Valid movement detected!
+2025-12-17 16:30:25 [INFO]: Valid movement detected!
+2025-12-17 16:30:25 [INFO]: Valid movement detected!
+2025-12-17 16:30:26 [INFO]: Valid movement detected!
+2025-12-17 16:30:26 [INFO]: Valid movement detected!
+2025-12-17 16:30:28 [INFO]: Valid movement detected!
+2025-12-17 16:30:28 [INFO]: Valid movement detected!
+2025-12-17 16:30:29 [INFO]: Valid movement detected!
+2025-12-17 16:30:29 [INFO]: Valid movement detected!
+2025-12-17 16:30:32 [INFO]: Valid movement detected!
+2025-12-17 16:30:32 [INFO]: Valid movement detected!
+2025-12-17 16:30:34 [INFO]: Valid movement detected!
+2025-12-17 16:30:34 [INFO]: Valid movement detected!
+2025-12-17 16:30:36 [INFO]: Valid movement detected!
+2025-12-17 16:30:36 [INFO]: Valid movement detected!
+2025-12-17 16:30:38 [INFO]: Valid movement detected!
+2025-12-17 16:30:38 [INFO]: Valid movement detected!
+2025-12-17 16:30:40 [INFO]: Valid movement detected!
+2025-12-17 16:30:40 [INFO]: Valid movement detected!
+2025-12-17 16:30:41 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:30:42 [INFO]: Valid movement detected!
+2025-12-17 16:30:42 [INFO]: Valid movement detected!
+2025-12-17 16:30:44 [INFO]: Valid movement detected!
+2025-12-17 16:30:44 [INFO]: Valid movement detected!
+2025-12-17 16:30:46 [INFO]: Valid movement detected!
+2025-12-17 16:30:46 [INFO]: Valid movement detected!
+2025-12-17 16:30:48 [INFO]: Valid movement detected!
+2025-12-17 16:30:48 [INFO]: Valid movement detected!
+2025-12-17 16:30:49 [INFO]: Valid movement detected!
+2025-12-17 16:30:49 [INFO]: Valid movement detected!
+2025-12-17 16:30:51 [INFO]: Valid movement detected!
+2025-12-17 16:30:51 [INFO]: Valid movement detected!
+2025-12-17 16:30:52 [INFO]: Valid movement detected!
+2025-12-17 16:30:52 [INFO]: Valid movement detected!
+2025-12-17 16:30:53 [INFO]: Valid movement detected!
+2025-12-17 16:30:53 [INFO]: Valid movement detected!
+2025-12-17 16:30:54 [INFO]: Valid movement detected!
+2025-12-17 16:30:54 [INFO]: Valid movement detected!
+2025-12-17 16:30:55 [INFO]: Valid movement detected!
+2025-12-17 16:30:55 [INFO]: Valid movement detected!
+2025-12-17 16:30:56 [INFO]: Valid movement detected!
+2025-12-17 16:30:56 [INFO]: Valid movement detected!
+2025-12-17 16:30:58 [INFO]: Valid movement detected!
+2025-12-17 16:30:58 [INFO]: Valid movement detected!
+2025-12-17 16:30:59 [INFO]: Valid movement detected!
+2025-12-17 16:30:59 [INFO]: Valid movement detected!
+2025-12-17 16:30:59 [INFO]: Hysteresis / deadzone detected!
+2025-12-17 16:31:01 [INFO]: Valid movement detected!
+2025-12-17 16:31:01 [INFO]: Valid movement detected!
+2025-12-17 16:31:02 [INFO]: Valid movement detected!
+2025-12-17 16:31:02 [INFO]: Valid movement detected!
+2025-12-17 16:31:04 [INFO]: Valid movement detected!
+2025-12-17 16:31:04 [INFO]: Valid movement detected!
+2025-12-17 16:31:06 [INFO]: Valid movement detected!
+2025-12-17 16:31:06 [INFO]: Valid movement detected!
+2025-12-17 16:31:06 [INFO]: Valid movement detected!
+2025-12-17 16:31:06 [INFO]: Valid movement detected!
+2025-12-17 16:31:07 [INFO]: Valid movement detected!
+2025-12-17 16:31:07 [INFO]: Valid movement detected!
+2025-12-17 16:31:09 [INFO]: Valid movement detected!
+2025-12-17 16:31:09 [INFO]: Valid movement detected!
+2025-12-17 16:31:09 [INFO]: Stop requested; breaking control loop.
+2025-12-17 16:31:09 [INFO]: Generating plots and rewinding robot...
+2025-12-17 16:31:09 [INFO]: /home/artery/catkin_ws/src/filippo_controller/experiments/to_evaluate/run_2025-12-17_16-28-44/results/results.csv
+2025-12-17 16:31:10 [INFO]: Rewinding robot (ML: 790 → AP: 584 → INS: -4084)...
+2025-12-17 16:33:10 [INFO]: Robot successfully brought back to start position.
+2025-12-17 16:33:10 [INFO]: signal_shutdown [Stop requested and finalize completed.]
+2025-12-17 16:33:10 [INFO]: topic[/rosout] removing connection to /rosout
+2025-12-17 16:33:10 [INFO]: topic[/tip_pose_topic] removing connection to /rviz_1765985316967780450
+2025-12-17 16:33:10 [INFO]: topic[/base_pose_topic] removing connection to /rviz_1765985316967780450
+2025-12-17 16:33:10 [INFO]: topic[/valve_pose_topic] removing connection to /rviz_1765985316967780450
+2025-12-17 16:33:10 [INFO]: topic[/catheter_shape_marker] removing connection to /rviz_1765985316967780450
+2025-12-17 16:33:10 [INFO]: topic[/displacements_VC] removing connection to /Arduino_node
+2025-12-17 16:33:10 [INFO]: topic[/reset_motors] removing connection to /Arduino_node
+2025-12-17 16:33:10 [INFO]: topic[/trajectory_path] removing connection to /rviz_1765985316967780450
+2025-12-17 16:33:10 [INFO]: topic[/waypoint] removing connection to /rviz_1765985316967780450
+2025-12-17 16:33:10 [INFO]: topic[/trajectory_points] removing connection to /rviz_1765985316967780450
+2025-12-17 16:33:10 [INFO]: topic[/aurora_data] removing connection to http://artery-desktop:43585/
+2025-12-17 16:33:10 [INFO]: topic[/Finish_Actuation] removing connection to http://artery-desktop:46819/
+2025-12-17 16:33:10 [INFO]: Stop requested and finalize completed.
+2025-12-17 16:33:11 [INFO]: signal_shutdown [atexit]

@@ -1,0 +1,15 @@
+2026-10-15 12:24:58 [INFO]: Logging initialized. All messages will go to console and /home/artery/catkin_ws/src/filippo_controller/experiments/to_evaluate/run_2026-10-15_12-24-58/logs/run.log
+2026-10-15 12:24:58 [INFO]: Workspace created at: /home/artery/catkin_ws/src/filippo_controller/experiments/to_evaluate/run_2026-10-15_12-24-58
+2026-10-15 12:24:58 [INFO]: Press 't' to stop and generate plots.
+2026-10-15 12:24:58 [INFO]: Node running. Press Ctrl+C to stop and generate plots.
+2026-10-15 12:25:01 [INFO]: signal_shutdown [atexit]
+2026-10-15 12:25:01 [INFO]: topic[/rosout] removing connection to /rosout
+2026-10-15 12:25:01 [INFO]: topic[/tip_pose_topic] removing connection to /rviz_1792059847901835321
+2026-10-15 12:25:01 [INFO]: topic[/base_pose_topic] removing connection to /rviz_1792059847901835321
+2026-10-15 12:25:01 [INFO]: topic[/valve_pose_topic] removing connection to /rviz_1792059847901835321
+2026-10-15 12:25:01 [INFO]: topic[/catheter_shape_marker] removing connection to /rviz_1792059847901835321
+2026-10-15 12:25:01 [INFO]: topic[/trajectory_path] removing connection to /rviz_1792059847901835321
+2026-10-15 12:25:01 [INFO]: topic[/waypoint] removing connection to /rviz_1792059847901835321
+2026-10-15 12:25:01 [INFO]: topic[/trajectory_points] removing connection to /rviz_1792059847901835321
+2026-10-15 12:25:01 [INFO]: topic[/aurora_data] removing connection to http://artery-desktop:37841/
+2026-10-15 12:25:01 [INFO]: atexit

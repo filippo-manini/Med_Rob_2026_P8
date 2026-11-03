@@ -1,0 +1,354 @@
+0.000 [ Info   ][Logger] No ORO_LOGLEVEL environment variable set.
+0.000 [ Info   ][Logger]  OROCOS version '2.9.0' compiled with GCC 9.3.0. Running in GNU/Linux.
+0.000 [ Info   ][Logger] Orocos Logging Activated at level : [ Warning] ( 4 ) 
+0.000 [ Info   ][Logger] Reference System Time is : 7552654727920 ticks ( 7552.65 seconds ).
+0.000 [ Info   ][Logger] Logging is relative to this time.
+0.000 [ Debug  ][Logger] MainThread started.
+0.000 [ Debug  ][Logger] Starting StartStopManager.
+0.000 [ Info   ][Logger] RTT_COMPONENT_PATH was set to: /home/artery/ws/underlay/devel/lib/orocos:/home/artery/ws/underlay_isolated/install_isolated/lib/orocos:/home/artery/catkin_ws/devel/lib/orocos . Searching in: /home/artery/ws/underlay/devel/lib/orocos:/home/artery/ws/underlay_isolated/install_isolated/lib/orocos:/home/artery/catkin_ws/devel/lib/orocos
+0.000 [ Info   ][Logger] plugin 'rtt' not loaded before.
+0.000 [ Debug  ][Logger] No such directory: "/home/artery/ws/underlay/devel/lib/orocos/./plugins"
+0.000 [ Debug  ][Logger] No such directory: "/home/artery/ws/underlay/devel/lib/orocos/gnulinux/./plugins"
+0.000 [ Debug  ][Logger] No such directory: "/home/artery/ws/underlay_isolated/install_isolated/lib/orocos/./plugins"
+0.000 [ Info   ][Logger] Loading plugin libraries from directory /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/./plugins ...
+0.000 [ Debug  ][Logger] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/./plugins/librtt-scripting-gnulinux.so.2.9 ...not a .so library: ignored.
+0.000 [ Debug  ][Logger] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/./plugins/librtt-marshalling-gnulinux.so.2.9 ...not a .so library: ignored.
+0.000 [ Debug  ][Logger] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/./plugins/librtt-marshalling-gnulinux.so.2.9.0 ...not a .so library: ignored.
+0.000 [ Debug  ][Logger] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/./plugins/librtt-scripting-gnulinux.so ...Found library librtt-scripting-gnulinux.so
+0.000 [ Info   ][Logger] Loaded RTT Service 'scripting' from 'rtt-scripting'
+0.000 [ Debug  ][Logger] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/./plugins/librtt-scripting-gnulinux.so.2.9.0 ...not a .so library: ignored.
+0.000 [ Debug  ][Logger] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/./plugins/librtt-marshalling-gnulinux.so ...Found library librtt-marshalling-gnulinux.so
+0.000 [ Info   ][Logger] Loaded RTT Service 'marshalling' from 'rtt-marshalling'
+0.000 [ Debug  ][Logger] No such directory: "/home/artery/catkin_ws/devel/lib/orocos/./plugins"
+0.000 [ Debug  ][Logger] No such directory: "/home/artery/catkin_ws/devel/lib/orocos/gnulinux/./plugins"
+0.000 [ Info   ][Logger] typekit 'rtt' not loaded before.
+0.000 [ Debug  ][Logger] No such directory: "/home/artery/ws/underlay/devel/lib/orocos/./types"
+0.000 [ Debug  ][Logger] No such directory: "/home/artery/ws/underlay/devel/lib/orocos/gnulinux/./types"
+0.000 [ Debug  ][Logger] No such directory: "/home/artery/ws/underlay_isolated/install_isolated/lib/orocos/./types"
+0.000 [ Info   ][Logger] Loading typekit libraries from directory /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/./types ...
+0.001 [ Debug  ][Logger] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/./types/librtt-transport-mqueue-gnulinux.so ...Found library librtt-transport-mqueue-gnulinux.so
+0.001 [ Info   ][TypekitRepository::Import] Loading Transport mqueue://rtt-types.
+0.001 [ Debug  ][TypekitRepository::Import] Transport mqueue did not install a fallback handler for 'unknown_t'.
+0.001 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-mqueue-transport' from 'rtt-transport-mqueue'
+0.001 [ Debug  ][Logger] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/./types/librtt-typekit-gnulinux.so.2.9.0 ...not a .so library: ignored.
+0.001 [ Debug  ][Logger] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/./types/librtt-transport-mqueue-gnulinux.so.2.9 ...not a .so library: ignored.
+0.013 [ Debug  ][Logger] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/./types/librtt-typekit-gnulinux.so ...Found library librtt-typekit-gnulinux.so
+0.013 [ Info   ][TypekitRepository::Import] Loading Typekit rtt-types.
+0.013 [ Debug  ][TypekitRepository::Import] Registered Type 'int' to the Orocos Type System.
+0.013 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for int
+0.013 [ Debug  ][TypekitRepository::Import] Registered Type 'uint' to the Orocos Type System.
+0.013 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for uint
+0.013 [ Debug  ][TypekitRepository::Import] Registered Type 'llong' to the Orocos Type System.
+0.013 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for llong
+0.013 [ Debug  ][TypekitRepository::Import] Registered Type 'ullong' to the Orocos Type System.
+0.013 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for ullong
+0.013 [ Debug  ][TypekitRepository::Import] Registered Type 'double' to the Orocos Type System.
+0.013 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for double
+0.013 [ Debug  ][TypekitRepository::Import] Registered Type 'float' to the Orocos Type System.
+0.013 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for float
+0.013 [ Debug  ][TypekitRepository::Import] Registered Type 'char' to the Orocos Type System.
+0.013 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for char
+0.013 [ Debug  ][TypekitRepository::Import] Registered Type 'bool' to the Orocos Type System.
+0.013 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for bool
+0.013 [ Debug  ][TypekitRepository::Import] Registered Type 'void' to the Orocos Type System.
+0.013 [ Debug  ][TypekitRepository::Import] Registered Type 'FlowStatus' to the Orocos Type System.
+0.013 [ Debug  ][TypekitRepository::Import] Registered Type 'WriteStatus' to the Orocos Type System.
+0.013 [ Debug  ][TypekitRepository::Import] Registered Type 'SendStatus' to the Orocos Type System.
+0.013 [ Debug  ][TypekitRepository::Import] Registered Type 'PropertyBag' to the Orocos Type System.
+0.013 [ Debug  ][TypekitRepository::Import] Registered Type 'ConnPolicy' to the Orocos Type System.
+0.013 [ Debug  ][TypekitRepository::Import] Registered Type 'BufferPolicy' to the Orocos Type System.
+0.013 [ Debug  ][TypekitRepository::Import] Registered Type 'SendHandle' to the Orocos Type System.
+0.013 [ Debug  ][TypekitRepository::Import] Registered Type 'TaskContext' to the Orocos Type System.
+0.013 [ Debug  ][TypekitRepository::Import] Registered Type 'string' to the Orocos Type System.
+0.013 [ Debug  ][TypekitRepository::Import] Registered Type 'array' to the Orocos Type System.
+0.013 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for array
+0.013 [ Debug  ][TypekitRepository::Import] Registered Type 'rt_string' to the Orocos Type System.
+0.013 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-types' from 'rtt-typekit'
+0.013 [ Debug  ][Logger] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/./types/librtt-typekit-gnulinux.so.2.9 ...not a .so library: ignored.
+0.013 [ Debug  ][Logger] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/./types/librtt-transport-mqueue-gnulinux.so.2.9.0 ...not a .so library: ignored.
+0.013 [ Debug  ][Logger] No such directory: "/home/artery/catkin_ws/devel/lib/orocos/./types"
+0.013 [ Debug  ][Logger] No such directory: "/home/artery/catkin_ws/devel/lib/orocos/gnulinux/./types"
+0.013 [ Info   ][Logger] RTT_COMPONENT_PATH was set to: /home/artery/ws/underlay/devel/lib/orocos:/home/artery/ws/underlay_isolated/install_isolated/lib/orocos:/home/artery/catkin_ws/devel/lib/orocos . Searching in: /home/artery/ws/underlay/devel/lib/orocos:/home/artery/ws/underlay_isolated/install_isolated/lib/orocos:/home/artery/catkin_ws/devel/lib/orocos
+0.013 [ Info   ][Logger] OCL factory set for real-time logging
+0.013 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='Deployer'
+0.013 [ Info   ][Deployer] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 4095 and period 0 (PID= 632238 ).
+0.014 [ Info   ][Logger] No site file was found. Importing 'ocl' by default.
+0.014 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl ...
+0.014 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-reporting-gnulinux.so.2.9.0 ...not a .so library: ignored.
+0.014 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-log4cxx-gnulinux.so.2.9 ...not a .so library: ignored.
+0.014 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/types ...not a regular file: ignored.
+0.014 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-helloworld-gnulinux.so.2.9.0 ...not a .so library: ignored.
+0.014 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-timer-gnulinux.so.2.9.0 ...not a .so library: ignored.
+0.015 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-helloworld-gnulinux.so ...Succesfully loaded orocos-ocl-helloworld
+0.015 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::HelloWorld'
+0.015 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-reporting-netcdf-gnulinux.so.2.9.0 ...not a .so library: ignored.
+0.015 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-log4cxx-gnulinux.so.2.9.0 ...not a .so library: ignored.
+0.015 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-common-gnulinux.so.2.9 ...not a .so library: ignored.
+0.015 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-common-gnulinux.so ...Succesfully loaded orocos-ocl-common
+0.015 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-common-gnulinux.so'
+0.015 [ Debug  ][ComponentLoader::import(path_list)] Components: OCL::HMIConsoleOutput TaskContext
+0.015 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-timer-gnulinux.so.2.9 ...not a .so library: ignored.
+0.015 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-common-gnulinux.so.2.9.0 ...not a .so library: ignored.
+0.017 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-reporting-netcdf-gnulinux.so ...Succesfully loaded orocos-ocl-reporting-netcdf
+0.017 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-reporting-netcdf-gnulinux.so'
+0.017 [ Debug  ][ComponentLoader::import(path_list)] Components: OCL::ConsoleReporting OCL::FileReporting OCL::TcpReporting
+0.017 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::NetcdfReporting'
+0.017 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-reporting-gnulinux.so ...Succesfully loaded orocos-ocl-reporting
+0.017 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-reporting-gnulinux.so'
+0.017 [ Debug  ][ComponentLoader::import(path_list)] Components: OCL::ConsoleReporting OCL::FileReporting OCL::TcpReporting
+0.017 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-logging-gnulinux.so.2.9.0 ...not a .so library: ignored.
+0.017 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-logging-gnulinux.so.2.9 ...not a .so library: ignored.
+0.018 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-timer-gnulinux.so ...Succesfully loaded orocos-ocl-timer
+0.018 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-timer-gnulinux.so'
+0.018 [ Debug  ][ComponentLoader::import(path_list)] Components: OCL::TimerComponent
+0.018 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/plugins ...not a regular file: ignored.
+0.018 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-reporting-netcdf-gnulinux.so.2.9 ...not a .so library: ignored.
+0.020 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-log4cxx-gnulinux.so ...Succesfully loaded orocos-ocl-log4cxx
+0.020 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::logging::Log4cxxAppender'
+0.020 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-helloworld-gnulinux.so.2.9 ...not a .so library: ignored.
+0.020 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-reporting-gnulinux.so.2.9 ...not a .so library: ignored.
+0.021 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-logging-gnulinux.so ...Succesfully loaded orocos-ocl-logging
+0.021 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-logging-gnulinux.so'
+0.021 [ Debug  ][ComponentLoader::import(path_list)] Components: OCL::logging::Appender OCL::logging::FileAppender OCL::logging::GenerationalFileAppender OCL::logging::LoggingService OCL::logging::OstreamAppender OCL::logging::RollingFileAppender
+0.021 [ Debug  ][ComponentLoader::import(path_list)] Looking for plugins or typekits in directory /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl ...
+0.021 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/types ...
+0.021 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/types/libocl-gnulinux.so.2.9 ...not a .so library: ignored.
+0.022 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/types/libocl-gnulinux.so ...Found library libocl-gnulinux.so
+0.022 [ Info   ][TypekitRepository::Import] Loading Typekit OCLTypekit.
+0.022 [ Debug  ][TypekitRepository::Import] Registered Type 'strings' to the Orocos Type System.
+0.022 [ Debug  ][TypekitRepository::Import] Registered Type 'ints' to the Orocos Type System.
+0.022 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'OCLTypekit' from 'ocl'
+0.023 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/types/libocl-gnulinux.so.2.9.0 ...not a .so library: ignored.
+0.023 [ Info   ][ComponentLoader::import(path_list)] Loading plugin libraries from directory /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/plugins ...
+0.023 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/plugins/libprint-gnulinux.so ...Found library libprint-gnulinux.so
+0.023 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Service 'print' from 'print'
+0.024 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/plugins/libos-gnulinux.so ...Found library libos-gnulinux.so
+0.024 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Service 'os' from 'os'
+0.024 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/plugins/libos-gnulinux.so.2.9 ...not a .so library: ignored.
+0.024 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/plugins/libos-gnulinux.so.2.9.0 ...not a .so library: ignored.
+0.024 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/plugins/libprint-gnulinux.so.2.9 ...not a .so library: ignored.
+0.024 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/plugins/libprint-gnulinux.so.2.9.0 ...not a .so library: ignored.
+0.024 [ Info   ][Logger] Loading Service or Plugin scripting in TaskContext Deployer
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller activateStateMachine
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller activateStateMachine
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller deactivateStateMachine
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller deactivateStateMachine
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller eval
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller eval
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller execute
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller execute
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller getProgramLine
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller getProgramLine
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller getProgramList
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller getProgramList
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller getProgramStatus
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller getProgramStatus
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller getProgramStatusStr
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller getProgramStatusStr
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller getProgramText
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller getProgramText
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller getStateMachineLine
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller getStateMachineLine
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller getStateMachineList
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller getStateMachineList
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller getStateMachineState
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller getStateMachineState
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller getStateMachineStatus
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller getStateMachineStatus
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller getStateMachineStatusStr
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller getStateMachineStatusStr
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller getStateMachineText
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller getStateMachineText
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller hasProgram
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller hasProgram
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller hasStateMachine
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller hasStateMachine
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller inProgramError
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller inProgramError
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller inStateMachineError
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller inStateMachineError
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller inStateMachineState
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller inStateMachineState
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller isProgramPaused
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller isProgramPaused
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller isProgramRunning
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller isProgramRunning
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller isStateMachineActive
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller isStateMachineActive
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller isStateMachinePaused
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller isStateMachinePaused
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller isStateMachineRunning
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller isStateMachineRunning
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller loadProgramText
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller loadProgramText
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller loadPrograms
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller loadPrograms
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller loadStateMachineText
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller loadStateMachineText
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller loadStateMachines
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller loadStateMachines
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller pauseProgram
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller pauseProgram
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller pauseStateMachine
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller pauseStateMachine
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller requestStateMachineState
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller requestStateMachineState
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller resetStateMachine
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller resetStateMachine
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller runScript
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller runScript
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller startProgram
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller startProgram
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller startStateMachine
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller startStateMachine
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller stepProgram
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller stepProgram
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller stopProgram
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller stopProgram
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller stopStateMachine
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller stopStateMachine
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller unloadProgram
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller unloadProgram
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller unloadStateMachine
+0.024 [ Debug  ][Logger] Successfully set up OperationCaller unloadStateMachine
+0.024 [ Info   ][Logger] Found complete interface of requested service 'scripting'
+0.024 [ Info   ][Logger] Running Script ops/aurora_basic.ops ...
+0.024 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='GlobalEngine'
+0.024 [ Info   ][GlobalEngine] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 4095 and period 0 (PID= 632239 ).
+0.025 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/artery/ws/underlay/devel/lib/orocos/gnulinux/rtt_ros ...
+0.025 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay/devel/lib/orocos/gnulinux/rtt_ros/types ...not a regular file: ignored.
+0.025 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay/devel/lib/orocos/gnulinux/rtt_ros/plugins ...not a regular file: ignored.
+0.025 [ Debug  ][ComponentLoader::import(path_list)] Looking for plugins or typekits in directory /home/artery/ws/underlay/devel/lib/orocos/gnulinux/rtt_ros ...
+0.025 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /home/artery/ws/underlay/devel/lib/orocos/gnulinux/rtt_ros/types ...
+0.047 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay/devel/lib/orocos/gnulinux/rtt_ros/types/librtt-ros-primitives-typekit-gnulinux.so ...Found library librtt-ros-primitives-typekit-gnulinux.so
+0.047 [ Info   ][TypekitRepository::Import] Loading Typekit ros-primitives.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'time' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'duration' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'int8' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'int8[]' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'cint8[]' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'uint8' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'uint8[]' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'cuint8[]' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'int16' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'int16[]' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'cint16[]' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'uint16' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'uint16[]' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'cuint16[]' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'int32' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'int32[]' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'cint32[]' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'uint32' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'uint32[]' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'cuint32[]' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'int64' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'int64[]' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'cint64[]' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'uint64' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'uint64[]' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'cuint64[]' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'float32' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'float32[]' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'cfloat32[]' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'float64' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'float64[]' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'cfloat64[]' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'string' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'string[]' to the Orocos Type System.
+0.047 [ Debug  ][TypekitRepository::Import] Registered Type 'cstring[]' to the Orocos Type System.
+0.047 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'ros-primitives' from 'rtt-ros-primitives-typekit'
+0.047 [ Info   ][ComponentLoader::import(path_list)] Loading plugin libraries from directory /home/artery/ws/underlay/devel/lib/orocos/gnulinux/rtt_ros/plugins ...
+0.049 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay/devel/lib/orocos/gnulinux/rtt_ros/plugins/librtt_ros_service-gnulinux.so ...Found library librtt_ros_service-gnulinux.so
+0.049 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Plugin 'ros' from 'rtt_ros_service'
+0.049 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/artery/ws/underlay/devel/lib/orocos/gnulinux/rtt_rosnode ...
+0.049 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay/devel/lib/orocos/gnulinux/rtt_rosnode/plugins ...not a regular file: ignored.
+0.049 [ Debug  ][ComponentLoader::import(path_list)] Looking for plugins or typekits in directory /home/artery/ws/underlay/devel/lib/orocos/gnulinux/rtt_rosnode ...
+0.049 [ Debug  ][ComponentLoader::import(path_list)] No such directory: "/home/artery/ws/underlay/devel/lib/orocos/gnulinux/rtt_rosnode/types"
+0.049 [ Info   ][ComponentLoader::import(path_list)] Loading plugin libraries from directory /home/artery/ws/underlay/devel/lib/orocos/gnulinux/rtt_rosnode/plugins ...
+0.053 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/ws/underlay/devel/lib/orocos/gnulinux/rtt_rosnode/plugins/librtt_rosnode-gnulinux.so ...Found library librtt_rosnode-gnulinux.so
+0.053 [ Info   ][ComponentLoader::import(path_list)] Initializing ROS node in Orocos plugin...
+0.056 [ Info   ][ComponentLoader::import(path_list)] ROS node spinner started (0 thread).
+0.056 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Plugin 'rosnode' from 'rtt_rosnode'
+0.056 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/artery/catkin_ws/devel/lib/orocos/gnulinux/ndi_aurora_2_6_x ...
+0.068 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/catkin_ws/devel/lib/orocos/gnulinux/ndi_aurora_2_6_x/libndi_aurora_2_6_x-gnulinux.so ...Succesfully loaded ndi_aurora_2_6_x
+0.068 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'AuroraMeasurementSystem::AuroraMeasurementSystem'
+0.068 [ Debug  ][ComponentLoader::import(path_list)] Looking for plugins or typekits in directory /home/artery/catkin_ws/devel/lib/orocos/gnulinux/ndi_aurora_2_6_x ...
+0.068 [ Debug  ][ComponentLoader::import(path_list)] No such directory: "/home/artery/catkin_ws/devel/lib/orocos/gnulinux/ndi_aurora_2_6_x/types"
+0.068 [ Debug  ][ComponentLoader::import(path_list)] No such directory: "/home/artery/catkin_ws/devel/lib/orocos/gnulinux/ndi_aurora_2_6_x/plugins"
+0.068 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/artery/catkin_ws/devel/lib/orocos/gnulinux/rtt_ndi_aurora_msgs ...
+0.068 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/catkin_ws/devel/lib/orocos/gnulinux/rtt_ndi_aurora_msgs/types ...not a regular file: ignored.
+0.068 [ Debug  ][ComponentLoader::import(path_list)] Looking for plugins or typekits in directory /home/artery/catkin_ws/devel/lib/orocos/gnulinux/rtt_ndi_aurora_msgs ...
+0.068 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /home/artery/catkin_ws/devel/lib/orocos/gnulinux/rtt_ndi_aurora_msgs/types ...
+0.071 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/catkin_ws/devel/lib/orocos/gnulinux/rtt_ndi_aurora_msgs/types/librtt-ndi_aurora_msgs-ros-transport-gnulinux.so ...Found library librtt-ndi_aurora_msgs-ros-transport-gnulinux.so
+0.072 [ Info   ][TypekitRepository::Import] Loading Transport ros://ros-ndi_aurora_msgs.
+0.072 [ Debug  ][TypekitRepository::Import] Transport ros did not install a fallback handler for 'unknown_t'.
+0.072 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'rtt-ros-ndi_aurora_msgs-transport' from 'rtt-ndi_aurora_msgs-ros-transport'
+0.072 [ Debug  ][ComponentLoader::import(path_list)] Scanning file /home/artery/catkin_ws/devel/lib/orocos/gnulinux/rtt_ndi_aurora_msgs/types/librtt-ndi_aurora_msgs-typekit-gnulinux.so ...Found library librtt-ndi_aurora_msgs-typekit-gnulinux.so
+0.072 [ Info   ][TypekitRepository::Import] Loading Typekit ros-ndi_aurora_msgs.
+0.072 [ Debug  ][TypekitRepository::Import] Registered Type '/ndi_aurora_msgs/AuroraData' to the Orocos Type System.
+0.072 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /ndi_aurora_msgs/AuroraData
+0.072 [ Debug  ][TypekitRepository::Import] Registered Type '/ndi_aurora_msgs/AuroraData[]' to the Orocos Type System.
+0.072 [ Debug  ][TypekitRepository::Import] Registered Type '/ndi_aurora_msgs/cAuroraData[]' to the Orocos Type System.
+0.072 [ Debug  ][TypekitRepository::Import] Registered Type '/ndi_aurora_msgs/AuroraDataVector' to the Orocos Type System.
+0.072 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /ndi_aurora_msgs/AuroraDataVector
+0.072 [ Debug  ][TypekitRepository::Import] Registered Type '/ndi_aurora_msgs/AuroraDataVector[]' to the Orocos Type System.
+0.072 [ Debug  ][TypekitRepository::Import] Registered Type '/ndi_aurora_msgs/cAuroraDataVector[]' to the Orocos Type System.
+0.072 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'ros-ndi_aurora_msgs' from 'rtt-ndi_aurora_msgs-typekit'
+0.072 [ Debug  ][ComponentLoader::import(path_list)] No such directory: "/home/artery/catkin_ws/devel/lib/orocos/gnulinux/rtt_ndi_aurora_msgs/plugins"
+0.072 [ Debug  ][loadComponent] Trying to create component Aurora of type AuroraMeasurementSystem::AuroraMeasurementSystem
+0.072 [ Debug  ][loadComponent] Found factory for Component type AuroraMeasurementSystem::AuroraMeasurementSystem
+0.072 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='Aurora'
+0.072 [ Info   ][Aurora] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 4095 and period 0 (PID= 632257 ).
+0.072 [ Debug  ][loadComponent] Aurora: adding Properties
+0.072 [ Debug  ][loadComponent] Aurora: adding Ports
+0.072 [ Debug  ][loadComponent] Aurora: adding Operations
+0.072 [ Info   ][loadComponent] Adding Aurora as new peer:  OK.
+0.073 [ Info   ][ScriptingService] Loading Service or Plugin marshalling in TaskContext Aurora
+0.073 [ Info   ][PropertyLoader:load] Loading properties into Service 'Aurora' with 'orocos/cpf/AuroraMeasurementSensor_Med_rob.cpf'.
+0.074 [ Debug  ][PropertyLoader:load] Successfuly composed Sequence from strings
+0.074 [ Debug  ][PropertyLoader:load] Used user's composition function for toolDefinitions:strings
+0.074 [ Debug  ][PropertyLoader:load] Successfuly composed Sequence from strings
+0.074 [ Debug  ][PropertyLoader:load] Used user's composition function for toolDefPortHandles:strings
+0.074 [ Debug  ][PropertyLoader:load] Successfuly composed Sequence from strings
+0.074 [ Debug  ][PropertyLoader:load] Used user's composition function for portHandlesAutoconfig:strings
+0.075 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=0, CPU affinity=4294967295, with name='Aurora'
+0.075 [ Debug  ][Thread] Setting CPU affinity to 4294967295
+0.075 [ Info   ][Aurora] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 4095 and period 0.025 (PID= 632258 ).
+0.075 [ Debug  ][Thread] Terminating Aurora
+0.075 [ Debug  ][Thread]  done
+0.075 [ Debug  ][loadComponent] Trying to create component Reporter of type OCL::FileReporting
+0.075 [ Debug  ][loadComponent] Found factory for Component type OCL::FileReporting
+0.075 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='Reporter'
+0.075 [ Info   ][Reporter] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 4095 and period 0 (PID= 632259 ).
+0.075 [ Info   ][loadComponent] Adding Reporter as new peer:  OK.
+0.075 [ Info   ][ScriptingService] Loading Service or Plugin marshalling in TaskContext Reporter
+0.075 [ Info   ][PropertyLoader:load] Loading properties into Service 'Reporter' with 'orocos/cpf/reporterAurora.cpf'.
+0.077 [ ERROR  ][CPFDemarshaller] An XML SAX parsing error occurred processing file 
+0.077 [ ERROR  ][CPFDemarshaller] unable to open primary document entity '/home/artery/catkin_ws/src/Med_rob_2026_P8/ndi_aurora_2_6_x/orocos/cpf/reporterAurora.cpf'
+0.077 [ ERROR  ][CPFDemarshaller]  At entity 
+0.077 [ ERROR  ][CPFDemarshaller]  Column 0 Line 0
+0.077 [ ERROR  ][PropertyLoader:load] Some error occured while parsing orocos/cpf/reporterAurora.cpf
+0.077 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=0, CPU affinity=4294967295, with name='Reporter'
+0.077 [ Debug  ][Thread] Setting CPU affinity to 4294967295
+0.077 [ Info   ][Reporter] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 4095 and period 1 (PID= 632260 ).
+0.077 [ Debug  ][Thread] Terminating Reporter
+0.077 [ Debug  ][Thread]  done
+0.078 [ Info   ][ReportingComponent] Not buffering of data flow connections. You may miss samples.
+0.078 [ Debug  ][ReportingComponent] Connected output port toolFramesPort successfully to Aurora_toolFramesPort
+0.078 [ Info   ][ReportingComponent] Monitoring OutputPort toolFramesPort : ok.
+0.078 [ Debug  ][Aurora] Aurora: create Aurora measurement system
+5.093 [ Debug  ][ScriptingService] Could not determine sample size for type /ndi_aurora_msgs/AuroraDataVector
+5.093 [ Debug  ][aurora_data] Creating ROS publisher for port Aurora.toolFramesPort on topic aurora_data
+5.095 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='RosPublishActivity'
+5.095 [ Info   ][RosPublishActivity] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 4095 and period 0 (PID= 632740 ).
+5.095 [ Debug  ][RosPublishActivity] Creating RosPublishActivity
+5.096 [ Info   ][ScriptingService] Created output stream for output port toolFramesPort
+5.096 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='TaskBrowser'
+5.097 [ Info   ][TaskBrowser] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 4095 and period 0 (PID= 632741 ).
+5.097 [ Info   ][Logger] Entering Task Deployer
+69441.294 [ Debug  ][Thread] Terminating TaskBrowser
+69441.294 [ Debug  ][Thread]  done
+69441.294 [ Info   ][Logger] Ignoring deployment shutdown function due to missing peer.
+69441.294 [ Info   ][stopComponentsGroup] Stopping group 0
+69441.294 [ Info   ][stopComponentsGroup] Stopped Reporter

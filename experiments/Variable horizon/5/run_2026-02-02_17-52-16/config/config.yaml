@@ -1,0 +1,131 @@
+processor:
+  module: nodes.aurora_processing_new_cal_disturbances
+  class: AuroraProcessing
+  params:
+    calibrated: true
+  attributes:
+    model_identified: false
+    generate_static: false
+    generate_dynamic: true
+    valve_base:
+    - 50.7861730407969
+    - -11.0764516741066
+    - 43.72304630819
+
+    valve_amplitude: 7.0
+    valve_frequency: 1.05
+    valve_dir:
+    - 0.8
+    - -0.5
+    - -0.3
+communicator:
+  module: nodes.arduino_communicator
+  class: ArduinoCommunicator
+  params: {}
+
+
+
+
+container:
+  module: estimators.Container
+  class: Container
+  params:
+    beta: 0.1
+    lambda_forget: 0.97
+    sigma_forget: 0.5
+    horizon_size: 60
+jacobian_estimator:
+  module: estimators.Jacobian_estimator
+  class: JacobianEstimator
+  params:
+    jacobian_shape: 3
+    container: $container
+    store_previous: true
+  attributes:
+    catheter_diameter: 5
+    tolerance: 1e-2
+    max_iter: 1000
+trajectory_estimator:
+  module: estimators.trajectory_estimator
+  class: TrajectoryEstimator
+  params:
+    dim: 3
+    jacobian_estimator: $jacobian_estimator
+  attributes:
+    min_step: 0.5
+    max_step: 5
+    f_weight: 0.5
+    pos_weight: 5
+    target_weight: 10
+    actuator_weight: 0.001
+    tol: 1e-4
+    max_iter: 1000
+    verbosity: 1
+    analytical: false
+valve_predictor:
+  module: estimators.Extended_Kalman_Predictor
+  class: KalmanPredictor
+  params:
+    initial_state:
+    - 0
+    - 0
+    - 4
+    initial_covariance:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    process_noise:
+    - 0.25
+    - 0
+    - 0
+    - 0
+    - 0.25
+    - 0
+    - 0
+    - 0
+    - 0.25
+    measurement_noise: 0.9
+    measured_frequency: 50
+pid_controller:
+  module: controllers.PID_controller
+  class: PID_Controller
+  params:
+    Kp:
+    - 0.4
+    - 0.8
+    - 0.8
+    Kd:
+    - 0.1
+    - 0.4
+    - 0.4
+    Ki:
+    - 0.0
+    - 0.0
+    - 0.0
+controller:
+  module: controllers.MPC_controller_waypoint_modular_hysteresis_check
+  class: Controller
+  params:
+    container: $container
+    jacobian_estimator: $jacobian_estimator
+    trajectory_estimator: $trajectory_estimator
+    kalman_predictor: $valve_predictor
+    pid_controller: $pid_controller
+    iteration: 5
+    delta_t_btw_actuations: 0.5
+    dl_to_steps:
+    - 100
+    - -40
+    - 40
+  attributes:
+    motor_threshold: 9000
+    dynamical_weight_update: true
+    estimate_jacobian: true
+    use_previously_estimated_jacobian: true
+    stopping_threshold: 1

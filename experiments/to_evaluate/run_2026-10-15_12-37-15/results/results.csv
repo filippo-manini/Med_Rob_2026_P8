@@ -1,0 +1,1 @@
+time,timestamp,base_pos_x,base_pos_y,base_pos_z,tip_pos_x,tip_pos_y,tip_pos_z,target_tip_pos_x,target_tip_pos_y,target_tip_pos_z,valve_pos_x,valve_pos_y,valve_pos_z,ACTUATION_INS,ACTUATION_ML,ACTUATION_AP,reached_tip_pos_x,reached_tip_pos_y,reached_tip_pos_z,position_error,normalized_position_error,target_error,min_target_error

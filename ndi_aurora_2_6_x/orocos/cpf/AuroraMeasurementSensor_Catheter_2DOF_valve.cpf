@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "cpf.dtd">
+<properties>
+  <simple name="port" type="string">
+    <description>Serial port to which the pose measurement system is connected. (/dev/ttySx)</description>
+    <value>/dev/ttyUSB1</value>
+  </simple>
+
+  <simple name="baudrate" type="long">
+    <description>Baudrate for the connection PC-pose measurement system, possible values (int) 9600, 19200, 38400, 57600, 115200, 921600, 230400. Baudrate 921600 is only available with a USB port and combined firmware 009. Baudrate 230400 is only available for combined firmware 009.</description>
+    <value>230400</value>
+  </simple>
+
+  <struct name="toolDefinitions" type="strings">
+    <description>Vector with file locations and names where to find tool definition files</description>
+
+    <!-- <simple name="Element0" type="string"><description>1st sensor of the list</description><value>/home/artery/catkin_ws/src/aurora/ndi_aurora_2_6_x/rom/610090_Aurora5DOF_0.8x11mm/610090-5DOF.rom</value></simple> -->
+    <simple name="Element0" type="string">
+      <description>1st sensor of the list</description>
+      <value>/home/artery/catkin_ws/src/aurora/ndi_aurora_2_6_x/rom/610029_AuroraMini6DOF_1.8x9mm/610029-6DOF.rom</value>
+    </simple>
+    <simple name="Element1" type="string">
+      <description>2nd sensor of the list</description>
+      <value>/home/artery/artery_ws/src/aurora/ndi_aurora_2_6_x/rom/610029_AuroraMini6DOF_1.8x9mm/610029-6DOF.rom</value>
+    </simple>
+    <simple name="Element2" type="string">
+      <description>3rd sensor of the list</description>
+      <value>/home/artery/artery_ws/src/aurora/ndi_aurora_2_6_x/rom/610029_AuroraMini6DOF_1.8x9mm/610029-6DOF.rom</value>
+    </simple>
+  </struct>
+
+  <struct name="toolDefPortHandles" type="strings">
+    <simple name="Element0" type="string">
+      <description>1st element of list</description>
+      <value>0A</value>
+    </simple>
+    <simple name="Element1" type="string">
+      <description>2nd element of list</description>
+      <value>0B</value>
+    </simple>
+    <simple name="Element2" type="string">
+      <description>3rd element of list</description>
+      <value>0C</value>
+    </simple>
+  </struct>
+
+  <simple name="refPort" type="string">
+    <description>Reference tool: e.g. "0A", maximum 2 characters per name</description>
+    <value>0A</value>
+  </simple>
+
+  <struct name="portHandlesAutoconfig" type="strings">
+    <description>Tools that have to be Autoconfigured as dual 5 DOF</description>
+    <!-- <simple name="Element0" type="string"><description>1st element of list</description><value>0A</value></simple> -->
+    <!-- <simple name="Element1" type="string"><description>2nd element of list</description><value>0C</value></simple> -->
+    <!-- <simple name="Element2" type="string"><description>3rd element of list</description><value>0D</value></simple> -->
+  </struct>
+
+  <simple name="trackReplyOption" type="long">
+    <description>Tracking reply option: possible values (int) 0 or 80 for no reset or reset frame counter</description>
+    <value>80</value>
+  </simple>
+
+  <simple name="measureReplyOption" type="string">
+    <description>Measure reply option: possible values (or their OR combination) (string) 0001, 0002, 0004, 0008, 0800, 1000 for transfo data, tool&amp;marker info, 3D pos of 1 active marker, 3D pos of markers on tool, transfo not normally reported, 3D pos of stray passive markers</description>
+    <value>0001</value>
+  </simple>
+
+  <simple name="statusReply" type="boolean">
+    <description>Do you want to have status information?: (bool) true, false for yes , no</description>
+    <value>1</value>
+  </simple>
+</properties>
+

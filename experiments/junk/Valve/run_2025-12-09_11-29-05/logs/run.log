@@ -1,0 +1,80 @@
+2025-12-09 11:29:05 [INFO]: Logging initialized. All messages will go to console and /home/artery/catkin_ws/src/filippo_controller/experiments/to_evaluate/run_2025-12-09_11-29-05/logs/run.log
+2025-12-09 11:29:05 [INFO]: Workspace created at: /home/artery/catkin_ws/src/filippo_controller/experiments/to_evaluate/run_2025-12-09_11-29-05
+2025-12-09 11:29:05 [INFO]: Press 't' to stop and generate plots.
+2025-12-09 11:29:05 [INFO]: Node running. Press Ctrl+C to stop and generate plots.
+2025-12-09 11:29:06 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:06 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:07 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:08 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:08 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:09 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:09 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:10 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:11 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:12 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:14 [INFO]: Valid Movement Detected
+2025-12-09 11:29:15 [INFO]: Valid Movement Detected
+2025-12-09 11:29:16 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:17 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:17 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:20 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:20 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:21 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:21 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:22 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:23 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:28 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:38 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:39 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:40 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:40 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:41 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:42 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:42 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:43 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:45 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:45 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:47 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:50 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:52 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:53 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:54 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:54 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:55 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:55 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:58 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:29:59 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:30:00 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:30:00 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:30:02 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:30:02 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:30:03 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:30:03 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:30:04 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:30:04 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:30:05 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:30:07 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:30:08 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:30:09 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:30:10 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:30:10 [INFO]: Hysteresis / deadzone detected!
+2025-12-09 11:30:10 [INFO]: Stop requested; breaking control loop.
+2025-12-09 11:30:10 [INFO]: Generating plots and rewinding robot...
+2025-12-09 11:30:10 [INFO]: /home/artery/catkin_ws/src/filippo_controller/experiments/to_evaluate/run_2025-12-09_11-29-05/results/results.csv
+2025-12-09 11:30:11 [INFO]: Rewinding robot (ML: 649 → AP: 751 → INS: -1550)...
+2025-12-09 11:31:17 [INFO]: Robot successfully brought back to start position.
+2025-12-09 11:31:17 [INFO]: signal_shutdown [Stop requested and finalize completed.]
+2025-12-09 11:31:17 [INFO]: topic[/rosout] removing connection to /rosout
+2025-12-09 11:31:17 [INFO]: topic[/tip_pose_topic] removing connection to /rviz_1765276111580835632
+2025-12-09 11:31:17 [INFO]: topic[/base_pose_topic] removing connection to /rviz_1765276111580835632
+2025-12-09 11:31:17 [INFO]: topic[/valve_pose_topic] removing connection to /rviz_1765276111580835632
+2025-12-09 11:31:17 [INFO]: topic[/catheter_shape_marker] removing connection to /rviz_1765276111580835632
+2025-12-09 11:31:17 [INFO]: topic[/displacements_VC] removing connection to /Arduino_node
+2025-12-09 11:31:17 [INFO]: topic[/reset_motors] removing connection to /Arduino_node
+2025-12-09 11:31:17 [INFO]: topic[/trajectory_path] removing connection to /rviz_1765276111580835632
+2025-12-09 11:31:17 [INFO]: topic[/waypoint] removing connection to /rviz_1765276111580835632
+2025-12-09 11:31:17 [INFO]: topic[/trajectory_points] removing connection to /rviz_1765276111580835632
+2025-12-09 11:31:17 [INFO]: topic[/aurora_data] removing connection to http://artery-desktop:38017/
+2025-12-09 11:31:17 [INFO]: topic[/Finish_Actuation] removing connection to http://artery-desktop:44107/
+2025-12-09 11:31:17 [INFO]: Stop requested and finalize completed.
+2025-12-09 11:31:18 [INFO]: signal_shutdown [atexit]
