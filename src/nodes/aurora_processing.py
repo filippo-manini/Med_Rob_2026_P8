@@ -26,8 +26,8 @@ AuroraData = namedtuple('AuroraData', 'pos orientation')
 class AuroraProcessing():     
     rp.init_node('aurora_processing_node', anonymous=True)
     AURORA_CHANNEL1 = 0  #Channel 1 is the TIP
-    AURORA_CHANNEL2 = 1  #Channel 2 is the BASE
-    AURORA_CHANNEL3 = 2
+    AURORA_CHANNEL2 = 1  #Channel 2 is the BASE (# Channel used during calibration by the EM-pen)
+    AURORA_CHANNEL3 = 2 # Delete?
     MAX_HISTORY = 10
     AURORA_THR_POS = 20
     AURORA_THR_ORI = 1.4
@@ -54,7 +54,22 @@ class AuroraProcessing():
         self.calibration_data = {"tip": [], "base": []}  # Dati della calibrazione
         self.start_time = rp.get_time()
         self.run_paths = None
-        self.control_loop_started = False 
+        self.control_loop_started = False
+
+        ### NEW 
+        # Matrices for transforming between NDI Aurora frame and base frame
+        self.T_ndi_base = np.eye(4)
+        self.T_base_ndi_inv = np.eye(4)
+
+        # Define two points and a quaternion to compute the base transformation
+        p1 = np.array([0.0, 0.0, 0.0])  # Position of Point 1 (Origin of the base / catheter exit)
+        q1 = np.array([0.0, 0.0, 0.0, 1.0])  # Quaternion of the pen at Point 1 [x, y, z, w]
+        p2 = np.array([0.0, 0.0, -1.0])  # Position of Point 2 (Point located further back on the catheter axis)
+
+        # Compute the transformation matrices
+        self.T_ndi_base, self.T_base_ndi_inv = self.compute_base_transform(p1, q1, p2)
+        ###
+
         
         # Initialize subscriber to receive Aurora data
         self.subscriber = rp.Subscriber("aurora_data", AuroraDataVector, self.callback)
@@ -153,6 +168,7 @@ class AuroraProcessing():
 
         # --- Relative tip in base ---
         self.tip_pose = np.linalg.inv(T_base_meas) @ T_tip_meas
+        ### CHANGE?: self.tip_pose = self.T_base_ndi_inv @ T_tip_meas
 
         pos = self.tip_pose[:3, 3]
                     
@@ -177,6 +193,66 @@ class AuroraProcessing():
         pose_msg.pose.orientation.z, pose_msg.pose.orientation.w = quaternion / np.linalg.norm(quaternion)
 
         publisher.publish(pose_msg)
+
+
+    ### NEW FUNCTION
+    def compute_base_transform(self, p1, q1, p2):
+        # I want to compute the transformation matrix from the NDI Aurora frame to a base frame defined by 
+        # two points (p1, p2) and the orientation of the pen at p1 (q1).
+    
+        # Parameters:
+        # p1 (np.array 3x1): Position of Point 1 (Origin of the base / catheter exit)
+        # q1 (np.array 4x1): Quaternion of the pen at Point 1 [x, y, z, w]
+        # p2 (np.array 3x1): Position of Point 2 (Point located further back on the catheter axis)
+
+        # Returns:
+        # T_ndi_base (np.array 4x4): Transformation matrix from NDI
+        # T_base_ndi_inv (np.array 4x4): Inverse transformation matrix from base to NDI to calculate the tip position in the base frame
+
+        # 1. Z axis (longitudinal / tangencial): Vector from point 2 to point 1
+        vec_z = p1 - p2
+        norm_z = np.linalg.norm(vec_z)
+        if norm_z < 1e-4:
+            raise ValueError("P1 and P2 are too close; cannot define a base frame.")
+        z_base = vec_z / norm_z
+
+        # 2. Orientation vector of the pen at P1 (from quaternion)
+        # Ensure normalized quaternion
+        q1_norm = q1 / np.linalg.norm(q1)
+        if q1_norm[3] < 0:
+            q1_norm = -q1_norm
+        R_pen1 = R.from_quat(q1_norm).as_matrix()
+        v_pen = R_pen1[:, 0]  # Directional vector of the pen
+
+        # 3. X axis: Projection of v_pen onto the plane perpendicular to z_base
+        x_proj = v_pen - np.dot(v_pen, z_base) * z_base
+        norm_x = np.linalg.norm(x_proj)
+        
+        # Case limit if the pen is totally aligned with Z
+        if norm_x < 1e-4:
+            v_alt = np.array([1.0, 0.0, 0.0]) if abs(z_base[0]) < 0.9 else np.array([0.0, 1.0, 0.0])
+            x_proj = v_alt - np.dot(v_alt, z_base) * z_base
+            norm_x = np.linalg.norm(x_proj)
+            
+        x_base = x_proj / norm_x
+
+        # 4. Y axis: Right-hand rule (y = z times x)
+        y_base = np.cross(z_base, x_base)
+        y_base /= np.linalg.norm(y_base)
+
+        # 5. Assembly of the Rotation Matrix (3x3) and Transformation (4x4)
+        R_base = np.column_stack((x_base, y_base, z_base))
+        
+        T_ndi_base = np.eye(4)
+        T_ndi_base[:3, :3] = R_base
+        T_ndi_base[:3, 3] = p1
+
+        # 6. The inverse of a homogeneous transformation matrix
+        T_base_ndi_inv = np.eye(4)
+        T_base_ndi_inv[:3, :3] = R_base.T
+        T_base_ndi_inv[:3, 3] = -R_base.T @ p1
+
+        return T_ndi_base, T_base_ndi_inv
 
 if __name__ == '__main__':
 
