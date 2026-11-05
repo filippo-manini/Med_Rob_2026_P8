@@ -218,11 +218,9 @@ class AuroraProcessing():
 
         # 2. Orientation vector of the pen at P1 (from quaternion)
         # Ensure normalized quaternion
-        q1_norm = q1 / np.linalg.norm(q1)
-        if q1_norm[3] < 0:
-            q1_norm = -q1_norm
+        q1_norm = self.normalize_quat(q1)
         R_pen1 = R.from_quat(q1_norm).as_matrix()
-        v_pen = R_pen1[:, 0]  # Directional vector of the pen
+        v_pen = R_pen1[:, 0]
 
         # 3. X axis: Projection of v_pen onto the plane perpendicular to z_base
         x_proj = v_pen - np.dot(v_pen, z_base) * z_base
