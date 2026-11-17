@@ -40,9 +40,9 @@ class ArduinoCommunicator():
     def __init__(self):
         self.run_paths = None
         self.aurora_processing = None
-        self.publisher = rp.Publisher("displacements_VC", Int32MultiArray, queue_size=10)
-        self.reset_publisher = rp.Publisher("reset_motors", Int32, queue_size=10)
-        self.subscriber = rp.Subscriber("Finish_Actuation", Int32, self.arduino_actuated)
+        self.publisher = rp.Publisher("displacements_VC", Int32MultiArray, queue_size=10) # # Publicador para enviar los deltas de pasos a los motores [INS, ML, AP]
+        self.reset_publisher = rp.Publisher("reset_motors", Int32, queue_size=10) # Publicador para reseteo de motores
+        self.subscriber = rp.Subscriber("Finish_Actuation", Int32, self.arduino_actuated) # Suscriptor para confirmación de finalización de movimiento
         self.arduino_done = False
         self.steps_tracker = {"LIN": 0, "ML": 0, "AP": 0}
         self.LIN_MIN=-10000
@@ -57,6 +57,7 @@ class ArduinoCommunicator():
     
     
     def check_CC_parameters(self,delta_steps):
+        """Verifica que la longitud del catéter se mantenga en rangos seguros (20mm - 70mm)."""
         base_pos = self.aurora_processing.base_pose.copy()
         tip_pos = self.aurora_processing.tip_pose.copy()
         
@@ -78,10 +79,7 @@ class ArduinoCommunicator():
                 print(" \r\n ")
                 print(" \r\n ")
                 print(" \r\n ")
- 
-                    
-                    
-                    
+             
         if l > 70:
             print(f"Computed length: {l:.2f} mm")
             base_pos = self.aurora_processing.base_pose.copy()
@@ -107,21 +105,24 @@ class ArduinoCommunicator():
 
     def send_steps_to_arduino_calibration(self, delta_steps):
         """Send delta steps to Arduino."""
+        """Envío básico de pasos en 3D [INS, ML, AP] con espera de respuesta."""
         
         print("delta steps: ",delta_steps)
-        
-        
         steps_message = Int32MultiArray(data=delta_steps)
         
         print("steps message: ",steps_message)
         self.publisher.publish(steps_message)
-        time_delay = max( (abs(delta_steps[0]) / self.INS_speed, abs(delta_steps[1]) / self.ML_speed, abs(delta_steps[2]) / self.AP_speed)) + 0.1
+        time_delay = max( (abs(delta_steps[0]) / self.INS_speed, 
+                           abs(delta_steps[1]) / self.ML_speed, 
+                           abs(delta_steps[2]) / self.AP_speed)
+                        ) + 0.1
         rp.sleep(time_delay)
         
         
     def send_steps_to_arduino_go_back(self, delta_steps):
             """Send delta steps to Arduino."""
-            
+            """Secuencia de retroceso desacoplada (AP -> ML -> INS) para reducir histeresis."""
+
             print("delta steps: ",delta_steps)
             ins_message = delta_steps[0]
             ml_message = delta_steps[1]
@@ -130,12 +131,9 @@ class ArduinoCommunicator():
             ######################################################################################################################
             #######            To avoid bad hysteresis behavior rewind actuations in the opposite order i.e. first         #######
             #######            AP, then ML and finally insertion                                                           #######
-            ######################################################################################################################
-
-
+            #######################################################################################################################
 
             # AP #
-
             delta_steps = np.zeros(3, dtype=int)
             delta_steps[2] = ap_message
             steps_message = Int32MultiArray(data=delta_steps)
@@ -145,7 +143,6 @@ class ArduinoCommunicator():
             rp.sleep(time_delay)
 
             # ML #
-
             delta_steps = np.zeros(3, dtype=int)
             delta_steps[1] = ml_message
             steps_message = Int32MultiArray(data=delta_steps)
@@ -155,7 +152,6 @@ class ArduinoCommunicator():
             rp.sleep(time_delay)
 
             # INS #
-
             delta_steps = np.zeros(3, dtype=int)
             delta_steps[0] = ins_message
             steps_message = Int32MultiArray(data=delta_steps)
@@ -168,11 +164,7 @@ class ArduinoCommunicator():
     def send_steps_to_arduino_go_back_ins(self, delta_step):
             """Send delta steps to Arduino."""
             
-
-
-
             # INS #
-
             delta_steps = np.zeros(3, dtype=int)
             delta_steps[0] = delta_step
             steps_message = Int32MultiArray(data=delta_steps)
@@ -186,15 +178,12 @@ class ArduinoCommunicator():
     def send_steps_to_arduino_go_back_ml(self, delta_step):
             """Send delta steps to Arduino."""
             
-
-
-
-            # INS #
-
+            # INS # ???????? No debería ser ML?
             delta_steps = np.zeros(3, dtype=int)
             delta_steps[1] = delta_step
             steps_message = Int32MultiArray(data=delta_steps)
             print("publishing :", steps_message)
+
             self.publisher.publish(steps_message)
             self.wait_for_arduino()
             time_delay = abs(delta_steps[1]) / self.ML_speed 
@@ -204,8 +193,7 @@ class ArduinoCommunicator():
     def send_steps_to_arduino_go_back_ap(self, delta_step):
             """Send delta steps to Arduino."""
             
-            # INS #
-
+            # INS # ????? No debería ser AP?
             delta_steps = np.zeros(3, dtype=int)
             delta_steps[2] = delta_step
             steps_message = Int32MultiArray(data=delta_steps)
@@ -217,12 +205,13 @@ class ArduinoCommunicator():
             rp.sleep(time_delay)
 
 
-    def send_steps_to_arduino(self, delta_steps, target, valve_pos):
+    def send_steps_to_arduino(self, delta_steps, target):
         """Send delta steps to Arduino and log current state to CSV."""
 
         # Validate delta steps
         delta_steps = self.check_CC_parameters(delta_steps)
         elapsed_time = time.time() - self.aurora_processing.start_time
+       
         # Prepare data row
         data_row = {
             "time": elapsed_time,
@@ -233,9 +222,6 @@ class ArduinoCommunicator():
             "tip_pos_x": self.aurora_processing.tip_pose[0, 3],
             "tip_pos_y": self.aurora_processing.tip_pose[1, 3],
             "tip_pos_z": self.aurora_processing.tip_pose[2, 3],
-            "valve_pos_x": valve_pos[0],
-            "valve_pos_y": valve_pos[1],
-            "valve_pos_z": valve_pos[2],
             "target_tip_pos_x": target[0],
             "target_tip_pos_y": target[1],
             "target_tip_pos_z": target[2],
@@ -251,27 +237,30 @@ class ArduinoCommunicator():
             "target_error": 0
         }
         norm_of_the_displacement = np.linalg.norm(self.aurora_processing.tip_pose[:3, 3] - target)
-        # Send delta steps to Arduino
+        # Send delta steps to Arduino (Publicar en el tema (topic) del Arduino)
         steps_message = Int32MultiArray(data=delta_steps)
         self.publisher.publish(steps_message)
-        time_delay = max( (abs(delta_steps[0]) / self.INS_speed, abs(delta_steps[1]) / self.ML_speed, abs(delta_steps[2]) / self.AP_speed)) + 0.1
+        
+        time_delay = max( 
+             (abs(delta_steps[0]) / self.INS_speed, 
+              abs(delta_steps[1]) / self.ML_speed, 
+              abs(delta_steps[2]) / self.AP_speed)
+            ) + 0.1
         rp.sleep(time_delay)
         self.wait_for_arduino()
         
         
-        
-        
-        
         # Update row with reached tip and errors
+        # Actualizar datos tras completar la actuación
+        reached_pos = self.aurora_processing.tip_pose[:3, 3]
+        pos_error = np.linalg.norm(reached_pos - target)
+        
         data_row.update({
-            "reached_tip_pos_x": self.aurora_processing.tip_pose[0, 3],
-            "reached_tip_pos_y": self.aurora_processing.tip_pose[1, 3],
-            "reached_tip_pos_z": self.aurora_processing.tip_pose[2, 3],
-            "position_error": np.linalg.norm(self.aurora_processing.tip_pose[:3, 3] - target),
-            #"target_error": np.linalg.norm(self.aurora_processing.tip_pose[:3, 3] - valve_pos),
-            "target_error": self.aurora_processing.target_error,
-            "normalized_position_error": np.linalg.norm((self.aurora_processing.tip_pose[:3, 3] - target) / norm_of_the_displacement),
-
+            "reached_tip_pos_x": reached_pos[0],
+            "reached_tip_pos_y": reached_pos[1],
+            "reached_tip_pos_z": reached_pos[2],
+            "position_error": pos_error,
+            "normalized_position_error": pos_error / norm_of_the_displacement if norm_of_the_displacement > 0 else 0
         })
 
         # Append row to CSV
@@ -293,13 +282,6 @@ class ArduinoCommunicator():
         rp.sleep(time_delay)
         self.wait_for_arduino()
 
-       
-        
-        
-
-
-
-
     def wait_for_arduino(self):
         """Wait for Arduino to signal completion."""
         rate = rp.Rate(100)  # Check for completion every 10 milliseconds
@@ -318,4 +300,21 @@ class ArduinoCommunicator():
         reset_message = Int32()
         reset_message.data = 1  # Command to reset all motors
         self.reset_publisher.publish(reset_message)
+        ## self.wait_for_arduino() Arduino doesn't send a completion signal for reset, so we won't wait here.
+        rp.sleep(3.0) # Wait for 3 seconds to allow Arduino to reset motors
+
+
+    ####################### NEW
+    def send_steps(self, delta_steps):
+        """Send relative delta steps [INS, ML, AP] to Arduino and wait for completion."""
+        self.arduino_done = False
+        steps_message = Int32MultiArray(data=delta_steps)
+        self.publisher.publish(steps_message)
+        
+        time_delay = max(
+            abs(delta_steps[0]) / self.INS_speed,
+            abs(delta_steps[1]) / self.ML_speed,
+            abs(delta_steps[2]) / self.AP_speed
+        ) + 0.1
+        rp.sleep(time_delay)
         self.wait_for_arduino()
