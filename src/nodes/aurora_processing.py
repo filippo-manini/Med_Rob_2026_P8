@@ -139,8 +139,8 @@ class AuroraProcessing():
         self.tip_history.append(tip_data)
         self._update_poses()
         
-        self.publish_pose(self.tip_pub, self.tip_pose, 'base_frame')
-        self.publish_pose(self.base_pub, np.eye(4), 'base_frame')                
+        self.publish_pose(self.tip_pub, self.tip_pose, 'world') ##########################################
+        self.publish_pose(self.base_pub, np.eye(4), 'world') ###########################################               
                 
     def _update_history(self, tip_data, base_data):
         self.tip_history.append(tip_data)
@@ -282,12 +282,3 @@ class AuroraProcessing():
             self.flag_calibration_done = True
             print("=== CALIBRATION COMPLETED ===")
 
-if __name__ == '__main__':
-
-    rp.init_node('aurora_processing_node', anonymous=True)
-
-    try:
-        aurora = AuroraProcessing(calibrated=False)
-        rp.spin()
-    except rp.ROSInterruptException:
-        print("Nodo finalizado.")
