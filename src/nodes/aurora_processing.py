@@ -25,7 +25,7 @@ AuroraData = namedtuple('AuroraData', 'pos orientation')
 
 class AuroraProcessing():     
     rp.init_node('aurora_processing_node', anonymous=True)
-    AURORA_CHANNEL1 = 0  #Channel 1 is the TIP
+    AURORA_CHANNEL1 = 0  #Channel 0 is the TIP
     AURORA_CHANNEL_PEN = 1  # Channel 1: EM-pen (Pointer used for base calibration)    
     MAX_HISTORY = 10
     AURORA_THR_POS = 20
