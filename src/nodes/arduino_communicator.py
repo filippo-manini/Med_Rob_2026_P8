@@ -304,10 +304,13 @@ class ArduinoCommunicator():
         rp.sleep(3.0) # Wait for 3 seconds to allow Arduino to reset motors
 
 
+
+
     ####################### NEW
     def send_steps(self, delta_steps):
         """Send relative delta steps [INS, ML, AP] to Arduino and wait for completion."""
         self.arduino_done = False
+        delta_steps = np.asarray(delta_steps)
         steps_message = Int32MultiArray(data=delta_steps)
         self.publisher.publish(steps_message)
         
@@ -316,5 +319,8 @@ class ArduinoCommunicator():
             abs(delta_steps[1]) / self.ML_speed,
             abs(delta_steps[2]) / self.AP_speed
         ) + 0.1
-        rp.sleep(time_delay)
+        print(time_delay)
+
+        #rp.sleep(time_delay)
+        #print(time_delay)
         self.wait_for_arduino()
