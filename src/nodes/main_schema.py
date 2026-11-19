@@ -50,7 +50,7 @@ def main():
     # =========================================================================
     # 1. INITIALIZE ROS NODES & MODULES
     # =========================================================================
-    rp.init_node('timed_random_dataset_acquisition', anonymous=True)
+    #rp.init_node('timed_random_dataset_acquisition', anonymous=True)
     
     communicator = ArduinoCommunicator()
     processor = AuroraProcessing(calibrated=False)
@@ -96,11 +96,23 @@ def main():
         
         # Physical workspace limits in motor steps (adjust to match hardware)
         LIMITS_MIN = np.array([0, -400, -400])     # [INS_min, ML_min, AP_min]
-        LIMITS_MAX = np.array([800, 400, 400])     # [INS_max, ML_max, AP_max]
+        LIMITS_MAX = np.array([5000, 400, 400])     # [INS_max, ML_max, AP_max]
         
         # Maximum random step increment per iteration
-        MAX_DELTA = np.array([150, 150, 150])
+        MIN_DELTA = np.array([-400, -20, -20])
+        MAX_DELTA = np.array([400, 20, 20])
 
+        # Define ranges
+        INSERTION_RANGE = np.concatenate([
+            np.arange(-400, -199),
+            np.arange(200, 401)
+        ])
+
+        ML_AP_RANGE = np.concatenate([
+            np.arange(-40, -19),
+            np.arange(20, 41)
+        ])
+        
         start_time = time.time()
         valid_samples = 0
 
@@ -122,7 +134,11 @@ def main():
 
             # 3) & 4) SAMPLE RANDOM ACTUATIONS AND RETRY UNTIL WITHIN LIMITS
             while not rp.is_shutdown():
-                delta_q = np.random.randint(-MAX_DELTA, MAX_DELTA + 1)
+                delta_q = np.array([
+                    np.random.choice(INSERTION_RANGE),
+                    np.random.choice(ML_AP_RANGE),
+                    np.random.choice(ML_AP_RANGE)
+                ])
                 proposed_q = current_q + delta_q
 
                 # Check if proposed actuation stays within physical workspace limits
@@ -139,10 +155,12 @@ def main():
             print(f"[{elapsed:.1f}s / {DURATION_SECONDS:.0f}s | Remaining: {remaining:.1f}s] Sample #{valid_samples} -> delta_q: {delta_q}")
 
             # 1) MOVE ROBOT
-            communicator.send_steps(delta_q.tolist())
+            print("I'm here")
+            communicator.send_steps(delta_q)
             current_q = proposed_q.copy()
 
             # Brief mechanical stabilization pause (settle time)
+            print("I'm here 2")
             rp.sleep(0.5)
 
             # 2) SAMPLE P_bar (New reached tip pose in base_frame)
