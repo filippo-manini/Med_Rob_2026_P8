@@ -89,20 +89,19 @@ def main():
             "p_reached_x", "p_reached_y", "p_reached_z"
         ])
 
-        input(f"\n[READY] Press ENTER to start random point acquisition for {DURATION_SECONDS} s...")
+        input(f"\n[READY] Press ENTER to start hybrid acquisition for {DURATION_SECONDS} s...")
 
         # Cumulative motor step tracker [INS, ML, AP]
         current_q = np.array([0, 0, 0], dtype=int)
         
-        # Physical workspace limits in motor steps (adjust to match hardware)
-        LIMITS_MIN = np.array([0, -400, -400])     # [INS_min, ML_min, AP_min]
-        LIMITS_MAX = np.array([5000, 400, 400])     # [INS_max, ML_max, AP_max]
+        # Physical workspace limits in motor steps
+        LIMITS_MIN = np.array([0, -400, -400])       # [INS_min, ML_min, AP_min]
+        LIMITS_MAX = np.array([5000, 400, 400])      # [INS_max, ML_max, AP_max]
         
-        # Maximum random step increment per iteration
-        MIN_DELTA = np.array([-400, -20, -20])
-        MAX_DELTA = np.array([400, 20, 20])
+        # Maximum step increment per iteration during global travel
+        MAX_TRAVEL_STEP = np.array([400, 40, 40])
 
-        # Define ranges
+        # Define local exploration ranges (excluding dead-zone steps)
         INSERTION_RANGE = np.concatenate([
             np.arange(-400, -199),
             np.arange(200, 401)
@@ -112,12 +111,19 @@ def main():
             np.arange(-40, -19),
             np.arange(20, 41)
         ])
+
+        # Hybrid state machine variables ("TRAVEL" -> "EXPLORE")
+        mode = "TRAVEL"
+        target_q = np.random.randint(LIMITS_MIN, LIMITS_MAX + 1)
+        local_steps_left = 0
+        LOCAL_BURST_MIN = 10
+        LOCAL_BURST_MAX = 20
         
         start_time = time.time()
         valid_samples = 0
 
         # =====================================================================
-        # 4. START ACQUISITION LOOP (GOVERNED BY TIME X)
+        # 4. START HYBRID ACQUISITION LOOP (GOVERNED BY TIME X)
         # =====================================================================
         while (time.time() - start_time) < DURATION_SECONDS and not rp.is_shutdown():
             
@@ -132,19 +138,42 @@ def main():
             # 2) COMPUTE J(P_hat) using the symbolic analytical Jacobian function
             J_hat = compute_analytical_jacobian(p_hat[0], p_hat[1], p_hat[2], catheter_diameter=3.0)
 
-            # 3) & 4) SAMPLE RANDOM ACTUATIONS AND RETRY UNTIL WITHIN LIMITS
-            while not rp.is_shutdown():
-                delta_q = np.array([
-                    np.random.choice(INSERTION_RANGE),
-                    np.random.choice(ML_AP_RANGE),
-                    np.random.choice(ML_AP_RANGE)
-                ])
+            # 3) SELECT ACTUATION ACCORDING TO CURRENT MODE
+            if mode == "TRAVEL":
+                diff = target_q - current_q
+
+                # Check if the robot has reached the vicinity of the global target
+                if np.all(np.abs(diff) <= 15):
+                    mode = "EXPLORE"
+                    local_steps_left = np.random.randint(LOCAL_BURST_MIN, LOCAL_BURST_MAX + 1)
+                    print(f"\n[MODE SWITCH] Reached target region {current_q}. Starting {local_steps_left} local moves...")
+                    continue
+
+                # Move toward target_q in bounded steps
+                delta_q = np.clip(diff, -MAX_TRAVEL_STEP, MAX_TRAVEL_STEP)
                 proposed_q = current_q + delta_q
 
-                # Check if proposed actuation stays within physical workspace limits
-                if np.all(proposed_q >= LIMITS_MIN) and np.all(proposed_q <= LIMITS_MAX):
-                    break  # Valid actuation found; exit retry loop
-                # If out of limits, immediately sample a new random delta_q
+            elif mode == "EXPLORE":
+                if local_steps_left <= 0:
+                    # Finished local burst -> pick a new distant target anywhere in the workspace
+                    mode = "TRAVEL"
+                    target_q = np.random.randint(LIMITS_MIN, LIMITS_MAX + 1)
+                    print(f"\n[MODE SWITCH] Local burst finished. Traveling to new global target: {target_q}...")
+                    continue
+
+                # Sample random local actuations from your dead-zone-free ranges within limits
+                while not rp.is_shutdown():
+                    delta_q = np.array([
+                        np.random.choice(INSERTION_RANGE),
+                        np.random.choice(ML_AP_RANGE),
+                        np.random.choice(ML_AP_RANGE)
+                    ])
+                    proposed_q = current_q + delta_q
+
+                    if np.all(proposed_q >= LIMITS_MIN) and np.all(proposed_q <= LIMITS_MAX):
+                        break
+
+                local_steps_left -= 1
 
             # =================================================================
             # ACTUATIONS ARE IN LIMITS -> EXECUTE MOTION & SAMPLE P_bar
@@ -152,15 +181,13 @@ def main():
             valid_samples += 1
             elapsed = time.time() - start_time
             remaining = max(0.0, DURATION_SECONDS - elapsed)
-            print(f"[{elapsed:.1f}s / {DURATION_SECONDS:.0f}s | Remaining: {remaining:.1f}s] Sample #{valid_samples} -> delta_q: {delta_q}")
+            print(f"[{elapsed:.1f}s / {DURATION_SECONDS:.0f}s | Remaining: {remaining:.1f}s | {mode}] Sample #{valid_samples} -> delta_q: {delta_q}")
 
             # 1) MOVE ROBOT
-            print("I'm here")
             communicator.send_steps(delta_q)
             current_q = proposed_q.copy()
 
             # Brief mechanical stabilization pause (settle time)
-            print("I'm here 2")
             rp.sleep(0.5)
 
             # 2) SAMPLE P_bar (New reached tip pose in base_frame)
