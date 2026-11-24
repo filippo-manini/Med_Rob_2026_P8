@@ -86,7 +86,8 @@ def main():
             # Random actuation deltas (3)
             "delta_ins", "delta_ml", "delta_ap",
             # Reached pose P_bar (3)
-            "p_reached_x", "p_reached_y", "p_reached_z"
+            "p_reached_x", "p_reached_y", "p_reached_z",
+            "current_ins", "current_ml", "current_ap"
         ])
 
         input(f"\n[READY] Press ENTER to start hybrid acquisition for {DURATION_SECONDS} s...")
@@ -203,7 +204,8 @@ def main():
                 J_hat[1, 0], J_hat[1, 1], J_hat[1, 2],
                 J_hat[2, 0], J_hat[2, 1], J_hat[2, 2],
                 delta_q[0], delta_q[1], delta_q[2],
-                p_bar[0], p_bar[1], p_bar[2]
+                p_bar[0], p_bar[1], p_bar[2],
+                current_q[0], current_q[1], current_q[2]
             ])
             f.flush()
 
