@@ -17,33 +17,38 @@ def compute_analytical_jacobian(x_meas, y_meas, z_meas, catheter_diameter=3.0):
     Computes the analytical 3x3 Jacobian matrix evaluated at the measured position
     (x_meas, y_meas, z_meas) based on the Constant Curvature (CC) kinematic model.
     """
-    # Define symbolic variables
     x, y, z = sp.symbols('x y z')
     d = catheter_diameter  # catheter diameter (mm)
 
-    # Compute arc parameters
     phi = sp.atan2(y, x)
     k = 2 * sp.sqrt(x ** 2 + y ** 2) / (x ** 2 + y ** 2 + z ** 2)
     theta = sp.acos(1 - k * sp.sqrt(x ** 2 + y ** 2))
     l = theta / k  # arc length (mm)
 
-    # Compute tendon displacements (inverse kinematics)
     q_inv = sp.zeros(3, 1)
     q_inv[0] = l                                             # Insertion (INS)
     q_inv[1] = -d / 2 * theta * sp.cos(math.pi / 2 - phi)    # ML
     q_inv[2] = -d / 2 * theta * sp.cos(-phi)                 # AP
 
-    # Compute symbolic Jacobian matrix
     J = sp.Matrix(q_inv).jacobian([x, y, z])
 
-    # Avoid exact singularity when x=0 and y=0 (k=0 -> division by zero in l = theta/k)
     if abs(x_meas) < 1e-6 and abs(y_meas) < 1e-6:
         x_meas = 1e-6
 
-    # Substitute current tip position into the Jacobian
     J_numeric = J.subs({x: x_meas, y: y_meas, z: z_meas})
-
     return np.array(J_numeric).astype(np.float64)
+
+
+def is_too_close(candidate_q, visited_list, radii):
+    """
+    Returns True if candidate_q falls inside the normalized exclusion radius
+    of any previously visited point in visited_list.
+    """
+    if not visited_list:
+        return False
+    visited_arr = np.array(visited_list)
+    normalized_dists = np.linalg.norm((visited_arr - candidate_q) / radii, axis=1)
+    return np.any(normalized_dists < 1.0)
 
 
 def main():
@@ -69,7 +74,6 @@ def main():
     os.makedirs(log_dir, exist_ok=True)
     csv_file = os.path.join(log_dir, f"nn_timed_dataset_{time.strftime('%Y%m%d_%H%M%S')}.csv")
 
-    # Set total acquisition duration in seconds (X time)
     DURATION_SECONDS = 300.0  # Example: 5 minutes (300 seconds)
 
     with open(csv_file, mode='w', newline='') as f:
@@ -77,15 +81,11 @@ def main():
         writer.writerow([
             "timestamp",
             "elapsed_time_s",
-            # Starting pose P_hat (3)
             "p_start_x", "p_start_y", "p_start_z",
-            # Jacobian J(P_hat) (9)
             "J11", "J12", "J13",
             "J21", "J22", "J23",
             "J31", "J32", "J33",
-            # Random actuation deltas (3)
             "delta_ins", "delta_ml", "delta_ap",
-            # Reached pose P_bar (3)
             "p_reached_x", "p_reached_y", "p_reached_z",
             "current_ins", "current_ml", "current_ap"
         ])
@@ -94,11 +94,16 @@ def main():
 
         # Cumulative motor step tracker [INS, ML, AP]
         current_q = np.array([0, 0, 0], dtype=int)
+        visited_q = []  # Only stores points from EXPLORE mode
         
         # Physical workspace limits in motor steps
         LIMITS_MIN = np.array([0, -400, -400])       # [INS_min, ML_min, AP_min]
         LIMITS_MAX = np.array([5000, 400, 400])      # [INS_max, ML_max, AP_max]
         
+        # Exclusion radius per axis [INS, ML, AP] to force spatial variability
+        EXCLUSION_RADII = np.array([150.0, 25.0, 25.0])
+        MAX_RETRIES = 50
+
         # Maximum step increment per iteration during global travel
         MAX_TRAVEL_STEP = np.array([400, 40, 40])
 
@@ -128,7 +133,6 @@ def main():
         # =====================================================================
         while (time.time() - start_time) < DURATION_SECONDS and not rp.is_shutdown():
             
-            # Wait until a valid Aurora tip pose is available
             if processor.tip_pose is None:
                 rp.sleep(0.05)
                 continue
@@ -143,28 +147,30 @@ def main():
             if mode == "TRAVEL":
                 diff = target_q - current_q
 
-                # Check if the robot has reached the vicinity of the global target
                 if np.all(np.abs(diff) <= 15):
                     mode = "EXPLORE"
                     local_steps_left = np.random.randint(LOCAL_BURST_MIN, LOCAL_BURST_MAX + 1)
                     print(f"\n[MODE SWITCH] Reached target region {current_q}. Starting {local_steps_left} local moves...")
                     continue
 
-                # Move toward target_q in bounded steps
                 delta_q = np.clip(diff, -MAX_TRAVEL_STEP, MAX_TRAVEL_STEP)
                 proposed_q = current_q + delta_q
 
             elif mode == "EXPLORE":
                 if local_steps_left <= 0:
-                    # Finished local burst -> pick a new distant target anywhere in the workspace
                     mode = "TRAVEL"
-                    target_q = np.random.randint(LIMITS_MIN, LIMITS_MAX + 1)
+                    # Pick a new global target outside the exclusion radius of explored points
+                    for _ in range(MAX_RETRIES):
+                        candidate_target = np.random.randint(LIMITS_MIN, LIMITS_MAX + 1)
+                        if not is_too_close(candidate_target, visited_q, EXCLUSION_RADII):
+                            break
+                    target_q = candidate_target
                     print(f"\n[MODE SWITCH] Local burst finished. Traveling to new global target: {target_q}...")
                     continue
 
-                # Sample random local actuations from your dead-zone-free ranges within limits
-                # This loop ensures that the proposed_q remains within the defined workspace limits
-                while not rp.is_shutdown():
+                # Sample random local actuations within limits and outside exclusion radius
+                found_valid = False
+                for _ in range(MAX_RETRIES):
                     delta_q = np.array([
                         np.random.choice(INSERTION_RANGE),
                         np.random.choice(ML_AP_RANGE),
@@ -173,7 +179,21 @@ def main():
                     proposed_q = current_q + delta_q
 
                     if np.all(proposed_q >= LIMITS_MIN) and np.all(proposed_q <= LIMITS_MAX):
-                        break
+                        if not is_too_close(proposed_q, visited_q, EXCLUSION_RADII):
+                            found_valid = True
+                            break
+
+                # Fallback if local area is saturated: accept any move within limits
+                if not found_valid:
+                    while not rp.is_shutdown():
+                        delta_q = np.array([
+                            np.random.choice(INSERTION_RANGE),
+                            np.random.choice(ML_AP_RANGE),
+                            np.random.choice(ML_AP_RANGE)
+                        ])
+                        proposed_q = current_q + delta_q
+                        if np.all(proposed_q >= LIMITS_MIN) and np.all(proposed_q <= LIMITS_MAX):
+                            break
 
                 local_steps_left -= 1
 
@@ -188,6 +208,8 @@ def main():
             # 1) MOVE ROBOT
             communicator.send_steps(delta_q)
             current_q = proposed_q.copy()
+            if mode == "EXPLORE":
+                visited_q.append(current_q.copy())
 
             # Brief mechanical stabilization pause (settle time)
             rp.sleep(0.5)
