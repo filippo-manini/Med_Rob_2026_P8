@@ -52,7 +52,7 @@ def is_too_close(candidate_q, visited_list, radii):
     return np.any(normalized_dists < 1.0)
 
 
-def compute_coverage_from_csv(csv_path, limits_min=(0, -400, -400), limits_max=(5000, 400, 400), grid_bins=(10, 8, 8), only_explore=True):
+def compute_coverage_from_csv(csv_path, limits_min=(0, 0, -950), limits_max=(14000, 1400, 2050), grid_bins=(5, 4, 4), only_explore=False):
     df = pd.read_csv(csv_path)
 
     if only_explore and 'mode' in df.columns:
@@ -265,8 +265,10 @@ def main():
 
     print(f"\n[DONE] Time elapsed ({DURATION_SECONDS}s). Total valid samples collected: {valid_samples}.")
     
-    cov_pct, visited, total = compute_coverage_from_csv(csv_file, limits_min=LIMITS_MIN, limits_max=LIMITS_MAX, only_explore=True)
-    print(f"[STATS] Workspace coverage (EXPLORE): {cov_pct:.2f}% ({visited}/{total} regions)")
+    cov_all, visited_all, total = compute_coverage_from_csv(csv_file, only_explore=False)
+    cov_exp, visited_exp, _ = compute_coverage_from_csv(csv_file, only_explore=True)
+    print(f"[STATS] Workspace coverage (ALL):     {cov_all:.2f}% ({visited_all}/{total} regions)")
+    print(f"[STATS] Workspace coverage (EXPLORE): {cov_exp:.2f}% ({visited_exp}/{total} regions)")
     
     print("[DONE] Resetting motors to home position...")
     communicator.send_reset_command()
