@@ -7,6 +7,7 @@ import time
 import math
 import numpy as np
 import sympy as sp
+import pandas as pd
 
 from aurora_processing import AuroraProcessing
 from arduino_communicator import ArduinoCommunicator
@@ -51,6 +52,35 @@ def is_too_close(candidate_q, visited_list, radii):
     return np.any(normalized_dists < 1.0)
 
 
+def compute_coverage_from_csv(csv_path, limits_min=(0, -400, -400), limits_max=(5000, 400, 400), grid_bins=(10, 8, 8), only_explore=True):
+    df = pd.read_csv(csv_path)
+
+    if only_explore and 'mode' in df.columns:
+        df = df[df['mode'] == 'EXPLORE']
+
+    if df.empty:
+        return 0.0, 0, int(np.prod(grid_bins))
+
+    cols = ['current_ins', 'current_ml', 'current_ap']
+    voxel_df = pd.DataFrame()
+
+    for col, l_min, l_max, n_bins in zip(cols, limits_min, limits_max, grid_bins):
+        # Discretize each axis into equal-width bins
+        voxel_df[col] = pd.cut(
+            df[col],
+            bins=np.linspace(l_min, l_max, n_bins + 1),
+            labels=False,
+            include_lowest=True
+        )
+
+    # Drop any out-of-bounds rows (NaN) and count unique 3D voxels
+    unique_voxels = voxel_df.dropna().drop_duplicates()
+    total_voxels = int(np.prod(grid_bins))
+    coverage_pct = (len(unique_voxels) / total_voxels) * 100.0
+
+    return coverage_pct, len(unique_voxels), total_voxels
+
+
 def main():
     # =========================================================================
     # 1. INITIALIZE ROS NODES & MODULES
@@ -81,6 +111,7 @@ def main():
         writer.writerow([
             "timestamp",
             "elapsed_time_s",
+            "mode",
             "p_start_x", "p_start_y", "p_start_z",
             "J11", "J12", "J13",
             "J21", "J22", "J23",
@@ -221,6 +252,7 @@ def main():
             writer.writerow([
                 rp.get_time(),
                 round(elapsed, 3),
+                mode,
                 p_hat[0], p_hat[1], p_hat[2],
                 J_hat[0, 0], J_hat[0, 1], J_hat[0, 2],
                 J_hat[1, 0], J_hat[1, 1], J_hat[1, 2],
@@ -232,6 +264,10 @@ def main():
             f.flush()
 
     print(f"\n[DONE] Time elapsed ({DURATION_SECONDS}s). Total valid samples collected: {valid_samples}.")
+    
+    cov_pct, visited, total = compute_coverage_from_csv(csv_file, limits_min=LIMITS_MIN, limits_max=LIMITS_MAX, only_explore=True)
+    print(f"[STATS] Workspace coverage (EXPLORE): {cov_pct:.2f}% ({visited}/{total} regions)")
+    
     print("[DONE] Resetting motors to home position...")
     communicator.send_reset_command()
 
