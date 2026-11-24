@@ -162,6 +162,7 @@ def main():
                     continue
 
                 # Sample random local actuations from your dead-zone-free ranges within limits
+                # This loop ensures that the proposed_q remains within the defined workspace limits
                 while not rp.is_shutdown():
                     delta_q = np.array([
                         np.random.choice(INSERTION_RANGE),
